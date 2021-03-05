@@ -1,0 +1,422 @@
+SCHOOL_YEAR,AGENCY_TYPE,CESA,COUNTY,DISTRICT_CODE,SCHOOL_CODE,GRADE_GROUP,CHARTER_IND,DISTRICT_NAME,SCHOOL_NAME,GROUP_BY,GROUP_BY_VALUE,STUDENT_COUNT,PERCENT_OF_GROUP
+2018-19,School District,10,Clark,7,,[All],No,Abbotsford,[Districtwide],All Students,All Students,764,100
+2018-19,School District,5,Adams,14,,[All],No,Adams-Friendship Area,[Districtwide],All Students,All Students,1494,100
+2018-19,School District,2,Green,63,,[All],No,Albany,[Districtwide],All Students,All Students,339,100
+2018-19,School District,7,Kewaunee,70,,[All],No,Algoma,[Districtwide],All Students,All Students,706,100
+2018-19,School District,4,Buffalo,84,,[All],No,Alma,[Districtwide],All Students,All Students,246,100
+2018-19,School District,4,Jackson,91,,[All],No,Alma Center,[Districtwide],All Students,All Students,607,100
+2018-19,School District,5,Portage,105,,[All],No,Almond-Bancroft,[Districtwide],All Students,All Students,398,100
+2018-19,School District,10,Eau Claire,112,,[All],No,Altoona,[Districtwide],All Students,All Students,1599,100
+2018-19,School District,11,Polk,119,,[All],No,Amery,[Districtwide],All Students,All Students,1554,100
+2018-19,School District,9,Langlade,140,,[All],No,Antigo Unified,[Districtwide],All Students,All Students,2262,100
+2018-19,School District,6,Outagamie,147,,[All],No,Appleton Area,[Districtwide],All Students,All Students,16291,100
+2018-19,School District,4,Trempealeau,154,,[All],No,Arcadia,[Districtwide],All Students,All Students,1302,100
+2018-19,School District,3,Lafayette,161,,[All],No,Argyle,[Districtwide],All Students,All Students,292,100
+2018-19,School District,1,Waukesha,2450,,[All],No,Arrowhead UHS,[Districtwide],All Students,All Students,2139,100
+2018-19,School District,12,Ashland,170,,[All],No,Ashland,[Districtwide],All Students,All Students,2093,100
+2018-19,School District,7,Brown,182,,[All],No,Ashwaubenon,[Districtwide],All Students,All Students,3313,100
+2018-19,School District,9,Marathon,196,,[All],No,Athens,[Districtwide],All Students,All Students,415,100
+2018-19,School District,5,Wood,203,,[All],No,Auburndale,[Districtwide],All Students,All Students,818,100
+2018-19,School District,10,Eau Claire,217,,[All],No,Augusta,[Districtwide],All Students,All Students,624,100
+2018-19,School District,11,Saint Croix,231,,[All],No,Baldwin-Woodville Area,[Districtwide],All Students,All Students,1745,100
+2018-19,School District,4,La Crosse,245,,[All],No,Bangor,[Districtwide],All Students,All Students,588,100
+2018-19,School District,5,Sauk,280,,[All],No,Baraboo,[Districtwide],All Students,All Students,2972,100
+2018-19,School District,3,Iowa,287,,[All],No,Barneveld,[Districtwide],All Students,All Students,438,100
+2018-19,School District,11,Barron,308,,[All],No,Barron Area,[Districtwide],All Students,All Students,1241,100
+2018-19,School District,12,Bayfield,315,,[All],No,Bayfield,[Districtwide],All Students,All Students,365,100
+2018-19,School District,6,Dodge,336,,[All],No,Beaver Dam Unified,[Districtwide],All Students,All Students,3508,100
+2018-19,School District,8,Marinette,4263,,[All],No,Beecher-Dunbar-Pembine,[Districtwide],All Students,All Students,233,100
+2018-19,School District,2,Dane,350,,[All],No,Belleville,[Districtwide],All Students,All Students,887,100
+2018-19,School District,3,Lafayette,364,,[All],No,Belmont Community,[Districtwide],All Students,All Students,384,100
+2018-19,School District,2,Rock,413,,[All],No,Beloit,[Districtwide],All Students,All Students,6474,100
+2018-19,School District,2,Rock,422,,[All],No,Beloit Turner,[Districtwide],All Students,All Students,1566,100
+2018-19,School District,3,Lafayette,427,,[All],No,Benton,[Districtwide],All Students,All Students,200,100
+2018-19,School District,6,Green Lake,434,,[All],No,Berlin Area,[Districtwide],All Students,All Students,1644,100
+2018-19,School District,2,Walworth,6013,,[All],No,Big Foot UHS,[Districtwide],All Students,All Students,489,100
+2018-19,School District,11,Washburn,441,,[All],No,Birchwood,[Districtwide],All Students,All Students,292,100
+2018-19,School District,3,Lafayette,2240,,[All],No,Black Hawk,[Districtwide],All Students,All Students,383,100
+2018-19,School District,4,Jackson,476,,[All],No,Black River Falls,[Districtwide],All Students,All Students,1742,100
+2018-19,School District,4,Trempealeau,485,,[All],No,Blair-Taylor,[Districtwide],All Students,All Students,614,100
+2018-19,School District,10,Chippewa,497,,[All],No,Bloomer,[Districtwide],All Students,All Students,1279,100
+2018-19,School District,8,Shawano,602,,[All],No,Bonduel,[Districtwide],All Students,All Students,737,100
+2018-19,School District,3,Grant,609,,[All],No,Boscobel Area,[Districtwide],All Students,All Students,796,100
+2018-19,School District,8,Shawano,623,,[All],No,Bowler,[Districtwide],All Students,All Students,331,100
+2018-19,School District,11,Dunn,637,,[All],No,Boyceville Community,[Districtwide],All Students,All Students,712,100
+2018-19,School District,2,Kenosha,657,,[All],No,Brighton #1,[Districtwide],All Students,All Students,226,100
+2018-19,School District,7,Calumet,658,,[All],No,Brillion,[Districtwide],All Students,All Students,978,100
+2018-19,School District,2,Kenosha,665,,[All],No,Bristol #1,[Districtwide],All Students,All Students,851,100
+2018-19,School District,2,Green,700,,[All],No,Brodhead,[Districtwide],All Students,All Students,1018,100
+2018-19,School District,1,Milwaukee,721,,[All],No,Brown Deer,[Districtwide],All Students,All Students,1521,100
+2018-19,School District,10,Rusk,735,,[All],No,Bruce,[Districtwide],All Students,All Students,441,100
+2018-19,School District,2,Racine,777,,[All],No,Burlington Area,[Districtwide],All Students,All Students,3145,100
+2018-19,School District,12,Ashland,840,,[All],No,Butternut,[Districtwide],All Students,All Students,206,100
+2018-19,School District,10,Chippewa,870,,[All],No,Cadott Community,[Districtwide],All Students,All Students,830,100
+2018-19,School District,5,Columbia,882,,[All],No,Cambria-Friesland,[Districtwide],All Students,All Students,371,100
+2018-19,School District,2,Dane,896,,[All],No,Cambridge,[Districtwide],All Students,All Students,908,100
+2018-19,School District,11,Barron,903,,[All],No,Cameron,[Districtwide],All Students,All Students,1149,100
+2018-19,School District,6,Fond du Lac,910,,[All],No,Campbellsport,[Districtwide],All Students,All Students,1335,100
+2018-19,School District,4,Monroe,980,,[All],No,Cashton,[Districtwide],All Students,All Students,610,100
+2018-19,School District,3,Grant,994,,[All],No,Cassville,[Districtwide],All Students,All Students,195,100
+2018-19,School District,7,Sheboygan,1029,,[All],No,Cedar Grove-Belgium Area,[Districtwide],All Students,All Students,986,100
+2018-19,School District,1,Ozaukee,1015,,[All],No,Cedarburg,[Districtwide],All Students,All Students,3122,100
+2018-19,School District,2,Kenosha,5054,,[All],No,Central/Westosha UHS,[Districtwide],All Students,All Students,1126,100
+2018-19,School District,12,Price,1071,,[All],No,Chequamegon,[Districtwide],All Students,All Students,768,100
+2018-19,School District,11,Barron,1080,,[All],No,Chetek-Weyerhaeuser Area,[Districtwide],All Students,All Students,989,100
+2018-19,School District,7,Calumet,1085,,[All],No,Chilton,[Districtwide],All Students,All Students,1114,100
+2018-19,School District,10,Chippewa,1092,,[All],No,Chippewa Falls Area Unified,[Districtwide],All Students,All Students,5052,100
+2018-19,School District,11,Polk,1120,,[All],No,Clayton,[Districtwide],All Students,All Students,344,100
+2018-19,School District,11,Polk,1127,,[All],No,Clear Lake,[Districtwide],All Students,All Students,597,100
+2018-19,School District,2,Rock,1134,,[All],No,Clinton Community,[Districtwide],All Students,All Students,1140,100
+2018-19,School District,8,Waupaca,1141,,[All],No,Clintonville,[Districtwide],All Students,All Students,1253,100
+2018-19,School District,4,Buffalo,1155,,[All],No,Cochrane-Fountain City,[Districtwide],All Students,All Students,620,100
+2018-19,School District,10,Clark,1162,,[All],No,Colby,[Districtwide],All Students,All Students,912,100
+2018-19,School District,8,Marinette,1169,,[All],No,Coleman,[Districtwide],All Students,All Students,729,100
+2018-19,School District,11,Dunn,1176,,[All],No,Colfax,[Districtwide],All Students,All Students,800,100
+2018-19,School District,5,Columbia,1183,,[All],No,Columbus,[Districtwide],All Students,All Students,1307,100
+2018-19,School District,10,Chippewa,1204,,[All],No,Cornell,[Districtwide],All Students,All Students,406,100
+2018-19,School District,8,Forest,1218,,[All],No,Crandon,[Districtwide],All Students,All Students,857,100
+2018-19,School District,8,Marinette,1232,,[All],No,Crivitz,[Districtwide],All Students,All Students,791,100
+2018-19,School District,3,Grant,1246,,[All],No,Cuba City,[Districtwide],All Students,All Students,679,100
+2018-19,School District,1,Milwaukee,1253,,[All],No,Cudahy,[Districtwide],All Students,All Students,2326,100
+2018-19,School District,11,Barron,1260,,[All],No,Cumberland,[Districtwide],All Students,All Students,998,100
+2018-19,School District,9,Marathon,4970,,[All],No,D C Everest Area,[Districtwide],All Students,All Students,6004,100
+2018-19,School District,3,Lafayette,1295,,[All],No,Darlington Community,[Districtwide],All Students,All Students,839,100
+2018-19,School District,2,Dane,1316,,[All],No,De Forest Area,[Districtwide],All Students,All Students,3828,100
+2018-19,School District,7,Brown,1414,,[All],No,De Pere,[Districtwide],All Students,All Students,4518,100
+2018-19,School District,4,Vernon,1421,,[All],No,De Soto Area,[Districtwide],All Students,All Students,496,100
+2018-19,School District,2,Dane,1309,,[All],No,Deerfield Community,[Districtwide],All Students,All Students,757,100
+2018-19,School District,2,Walworth,1380,,[All],No,Delavan-Darien,[Districtwide],All Students,All Students,2020,100
+2018-19,School District,7,Brown,1407,,[All],No,Denmark,[Districtwide],All Students,All Students,1560,100
+2018-19,School District,6,Dodge,2744,,[All],No,Dodgeland,[Districtwide],All Students,All Students,787,100
+2018-19,School District,3,Iowa,1428,,[All],No,Dodgeville,[Districtwide],All Students,All Students,1227,100
+2018-19,School District,2,Racine,1449,,[All],No,Dover #1,[Districtwide],All Students,All Students,92,100
+2018-19,School District,12,Bayfield,1491,,[All],No,Drummond Area,[Districtwide],All Students,All Students,353,100
+2018-19,School District,11,Pepin,1499,,[All],No,Durand-Arkansaw,[Districtwide],All Students,All Students,959,100
+2018-19,School District,2,Walworth,1540,,[All],No,East Troy Community,[Districtwide],All Students,All Students,1646,100
+2018-19,School District,10,Eau Claire,1554,,[All],No,Eau Claire Area,[Districtwide],All Students,All Students,11355,100
+2018-19,School District,9,Marathon,1561,,[All],No,Edgar,[Districtwide],All Students,All Students,597,100
+2018-19,School District,2,Rock,1568,,[All],No,Edgerton,[Districtwide],All Students,All Students,1879,100
+2018-19,School District,9,Langlade,1582,,[All],No,Elcho,[Districtwide],All Students,All Students,273,100
+2018-19,School District,10,Trempealeau,1600,,[All],No,Eleva-Strum,[Districtwide],All Students,All Students,632,100
+2018-19,School District,11,Dunn,1645,,[All],No,Elk Mound Area,[Districtwide],All Students,All Students,1202,100
+2018-19,School District,7,Sheboygan,1631,,[All],No,Elkhart Lake-Glenbeulah,[Districtwide],All Students,All Students,439,100
+2018-19,School District,2,Walworth,1638,,[All],No,Elkhorn Area,[Districtwide],All Students,All Students,3469,100
+2018-19,School District,11,Pierce,1659,,[All],No,Ellsworth Community,[Districtwide],All Students,All Students,1662,100
+2018-19,School District,1,Waukesha,714,,[All],No,Elmbrook,[Districtwide],All Students,All Students,7334,100
+2018-19,School District,11,Pierce,1666,,[All],No,Elmwood,[Districtwide],All Students,All Students,312,100
+2018-19,School District,6,Washington,1687,,[All],No,Erin,[Districtwide],All Students,All Students,421,100
+2018-19,School District,2,Rock,1694,,[All],No,Evansville Community,[Districtwide],All Students,All Students,1800,100
+2018-19,School District,10,Eau Claire,1729,,[All],No,Fall Creek,[Districtwide],All Students,All Students,852,100
+2018-19,School District,5,Columbia,1736,,[All],No,Fall River,[Districtwide],All Students,All Students,453,100
+2018-19,School District,3,Grant,1813,,[All],No,Fennimore Community,[Districtwide],All Students,All Students,798,100
+2018-19,School District,10,Rusk,5757,,[All],No,Flambeau,[Districtwide],All Students,All Students,578,100
+2018-19,School District,8,Florence,1855,,[All],No,Florence County,[Districtwide],All Students,All Students,389,100
+2018-19,School District,6,Fond du Lac,1862,,[All],No,Fond du Lac,[Districtwide],All Students,All Students,7100,100
+2018-19,School District,2,Walworth,1870,,[All],No,Fontana J8,[Districtwide],All Students,All Students,214,100
+2018-19,School District,2,Jefferson,1883,,[All],No,Fort Atkinson,[Districtwide],All Students,All Students,2843,100
+2018-19,School District,1,Milwaukee,1890,,[All],No,Fox Point J2,[Districtwide],All Students,All Students,793,100
+2018-19,School District,1,Milwaukee,1900,,[All],No,Franklin Public,[Districtwide],All Students,All Students,4599,100
+2018-19,School District,11,Polk,1939,,[All],No,Frederic,[Districtwide],All Students,All Students,438,100
+2018-19,School District,6,Outagamie,1953,,[All],No,Freedom Area,[Districtwide],All Students,All Students,1607,100
+2018-19,School District,4,Trempealeau,2009,,[All],No,Galesville-Ettrick-Trempealeau,[Districtwide],All Students,All Students,1397,100
+2018-19,School District,2,Walworth,2044,,[All],No,Geneva J4,[Districtwide],All Students,All Students,201,100
+2018-19,School District,2,Walworth,2051,,[All],No,Genoa City J2,[Districtwide],All Students,All Students,526,100
+2018-19,School District,1,Washington,2058,,[All],No,Germantown,[Districtwide],All Students,All Students,3896,100
+2018-19,School District,7,Door,2114,,[All],No,Gibraltar Area,[Districtwide],All Students,All Students,531,100
+2018-19,School District,8,Oconto,2128,,[All],No,Gillett,[Districtwide],All Students,All Students,514,100
+2018-19,School District,10,Taylor,2135,,[All],No,Gilman,[Districtwide],All Students,All Students,326,100
+2018-19,School District,10,Buffalo,2142,,[All],No,Gilmanton,[Districtwide],All Students,All Students,150,100
+2018-19,School District,1,Milwaukee,2184,,[All],No,Glendale-River Hills,[Districtwide],All Students,All Students,1065,100
+2018-19,School District,11,Saint Croix,2198,,[All],No,Glenwood City,[Districtwide],All Students,All Students,687,100
+2018-19,School District,8,Marinette,2212,,[All],No,Goodman-Armstrong Creek,[Districtwide],All Students,All Students,115,100
+2018-19,School District,1,Ozaukee,2217,,[All],No,Grafton,[Districtwide],All Students,All Students,2071,100
+2018-19,School District,10,Clark,2226,,[All],No,Granton Area,[Districtwide],All Students,All Students,233,100
+2018-19,School District,11,Burnett,2233,,[All],No,Grantsburg,[Districtwide],All Students,All Students,1463,100
+2018-19,School District,7,Brown,2289,,[All],No,Green Bay Area Public,[Districtwide],All Students,All Students,20391,100
+2018-19,School District,6,Green Lake,2310,,[All],No,Green Lake,[Districtwide],All Students,All Students,303,100
+2018-19,School District,1,Milwaukee,2296,,[All],No,Greendale,[Districtwide],All Students,All Students,2698,100
+2018-19,School District,1,Milwaukee,2303,,[All],No,Greenfield,[Districtwide],All Students,All Students,3527,100
+2018-19,School District,10,Clark,2394,,[All],No,Greenwood,[Districtwide],All Students,All Students,358,100
+2018-19,School District,8,Shawano,2415,,[All],No,Gresham,[Districtwide],All Students,All Students,292,100
+2018-19,School District,1,Waukesha,2420,,[All],No,Hamilton,[Districtwide],All Students,All Students,4859,100
+2018-19,School District,6,Washington,2443,,[All],No,Hartford J1,[Districtwide],All Students,All Students,1706,100
+2018-19,School District,6,Washington,2436,,[All],No,Hartford UHS,[Districtwide],All Students,All Students,1344,100
+2018-19,School District,1,Waukesha,2460,,[All],No,Hartland-Lakeside J3,[Districtwide],All Students,All Students,1187,100
+2018-19,School District,12,Sawyer,2478,,[All],No,Hayward Community,[Districtwide],All Students,All Students,2063,100
+2018-19,School District,6,Dodge,2525,,[All],No,Herman-Neosho-Rubicon,[Districtwide],All Students,All Students,318,100
+2018-19,School District,3,Iowa,2527,,[All],No,Highland,[Districtwide],All Students,All Students,297,100
+2018-19,School District,7,Calumet,2534,,[All],No,Hilbert,[Districtwide],All Students,All Students,457,100
+2018-19,School District,4,Vernon,2541,,[All],No,Hillsboro,[Districtwide],All Students,All Students,540,100
+2018-19,School District,4,La Crosse,2562,,[All],No,Holmen,[Districtwide],All Students,All Students,3994,100
+2018-19,School District,6,Washington,2570,,[All],No,Holy Hill Area,[Districtwide],All Students,All Students,545,100
+2018-19,School District,6,Dodge,2576,,[All],No,Horicon,[Districtwide],All Students,All Students,681,100
+2018-19,School District,6,Outagamie,2583,,[All],No,Hortonville Area,[Districtwide],All Students,All Students,4011,100
+2018-19,School District,7,Brown,2604,,[All],No,Howard-Suamico,[Districtwide],All Students,All Students,6103,100
+2018-19,School District,7,Sheboygan,2605,,[All],No,Howards Grove,[Districtwide],All Students,All Students,907,100
+2018-19,School District,11,Saint Croix,2611,,[All],No,Hudson,[Districtwide],All Students,All Students,5614,100
+2018-19,School District,12,Iron,2618,,[All],No,Hurley,[Districtwide],All Students,All Students,563,100
+2018-19,School District,6,Dodge,2625,,[All],No,Hustisford,[Districtwide],All Students,All Students,438,100
+2018-19,School District,4,Trempealeau,2632,,[All],No,Independence,[Districtwide],All Students,All Students,382,100
+2018-19,School District,5,Waupaca,2639,,[All],No,Iola-Scandinavia,[Districtwide],All Students,All Students,665,100
+2018-19,School District,3,Iowa,2646,,[All],No,Iowa-Grant,[Districtwide],All Students,All Students,732,100
+2018-19,School District,3,Richland,2660,,[All],No,Ithaca,[Districtwide],All Students,All Students,446,100
+2018-19,School District,2,Rock,2695,,[All],No,Janesville,[Districtwide],All Students,All Students,10069,100
+2018-19,School District,2,Jefferson,2702,,[All],No,Jefferson,[Districtwide],All Students,All Students,1874,100
+2018-19,School District,2,Jefferson,2730,,[All],No,Johnson Creek,[Districtwide],All Students,All Students,655,100
+2018-19,School District,2,Green,2737,,[All],No,Juda,[Districtwide],All Students,All Students,305,100
+2018-19,School District,6,Outagamie,2758,,[All],No,Kaukauna Area,[Districtwide],All Students,All Students,3935,100
+2018-19,School District,1,Kenosha,2793,,[All],No,Kenosha,[Districtwide],All Students,All Students,21233,100
+2018-19,School District,1,Waukesha,1376,,[All],No,Kettle Moraine,[Districtwide],All Students,All Students,3868,100
+2018-19,School District,6,Washington,2800,,[All],No,Kewaskum,[Districtwide],All Students,All Students,1814,100
+2018-19,School District,7,Kewaunee,2814,,[All],No,Kewaunee,[Districtwide],All Students,All Students,953,100
+2018-19,School District,3,Vernon,5960,,[All],No,Kickapoo Area,[Districtwide],All Students,All Students,520,100
+2018-19,School District,7,Manitowoc,2828,,[All],No,Kiel Area,[Districtwide],All Students,All Students,1216,100
+2018-19,School District,6,Outagamie,2835,,[All],No,Kimberly Area,[Districtwide],All Students,All Students,5190,100
+2018-19,School District,7,Sheboygan,2842,,[All],No,Kohler,[Districtwide],All Students,All Students,703,100
+2018-19,School District,4,La Crosse,2849,,[All],No,La Crosse,[Districtwide],All Students,All Students,6637,100
+2018-19,School District,4,Vernon,2863,,[All],No,La Farge,[Districtwide],All Students,All Students,218,100
+2018-19,School District,9,Vilas,1848,,[All],No,Lac du Flambeau #1,[Districtwide],All Students,All Students,510,100
+2018-19,School District,10,Rusk,2856,,[All],No,Ladysmith,[Districtwide],All Students,All Students,806,100
+2018-19,School District,1,Waukesha,3862,,[All],No,Lake Country,[Districtwide],All Students,All Students,499,100
+2018-19,School District,2,Walworth,2885,,[All],No,Lake Geneva J1,[Districtwide],All Students,All Students,1918,100
+2018-19,School District,2,Walworth,2884,,[All],No,Lake Geneva-Genoa City UHS,[Districtwide],All Students,All Students,1432,100
+2018-19,School District,10,Chippewa,2891,,[All],No,Lake Holcombe,[Districtwide],All Students,All Students,316,100
+2018-19,School District,2,Jefferson,2898,,[All],No,Lake Mills Area,[Districtwide],All Students,All Students,1588,100
+2018-19,School District,9,Oneida,3647,,[All],No,Lakeland UHS,[Districtwide],All Students,All Students,709,100
+2018-19,School District,3,Grant,2912,,[All],No,Lancaster Community,[Districtwide],All Students,All Students,963,100
+2018-19,School District,8,Forest,2940,,[All],No,Laona,[Districtwide],All Students,All Students,261,100
+2018-19,School District,8,Oconto,2961,,[All],No,Lena,[Districtwide],All Students,All Students,388,100
+2018-19,School District,2,Walworth,3087,,[All],No,Linn J4,[Districtwide],All Students,All Students,119,100
+2018-19,School District,2,Walworth,3094,,[All],No,Linn J6,[Districtwide],All Students,All Students,148,100
+2018-19,School District,6,Outagamie,3129,,[All],No,Little Chute Area,[Districtwide],All Students,All Students,1602,100
+2018-19,School District,5,Columbia,3150,,[All],No,Lodi,[Districtwide],All Students,All Students,1493,100
+2018-19,School District,6,Dodge,3171,,[All],No,Lomira,[Districtwide],All Students,All Students,1080,100
+2018-19,School District,10,Clark,3206,,[All],No,Loyal,[Districtwide],All Students,All Students,502,100
+2018-19,School District,11,Polk,3213,,[All],No,Luck,[Districtwide],All Students,All Students,438,100
+2018-19,School District,7,Kewaunee,3220,,[All],No,Luxemburg-Casco,[Districtwide],All Students,All Students,1910,100
+2018-19,School District,2,Dane,3269,,[All],No,Madison Metropolitan,[Districtwide],All Students,All Students,26917,100
+2018-19,School District,6,Waupaca,3276,,[All],No,Manawa,[Districtwide],All Students,All Students,637,100
+2018-19,School District,7,Manitowoc,3290,,[All],No,Manitowoc,[Districtwide],All Students,All Students,4961,100
+2018-19,School District,12,Douglas,3297,,[All],No,Maple,[Districtwide],All Students,All Students,1341,100
+2018-19,School District,1,Milwaukee,1897,,[All],No,Maple Dale-Indian Hill,[Districtwide],All Students,All Students,471,100
+2018-19,School District,9,Marathon,3304,,[All],No,Marathon City,[Districtwide],All Students,All Students,731,100
+2018-19,School District,8,Marinette,3311,,[All],No,Marinette,[Districtwide],All Students,All Students,2033,100
+2018-19,School District,8,Waupaca,3318,,[All],No,Marion,[Districtwide],All Students,All Students,438,100
+2018-19,School District,6,Green Lake,3325,,[All],No,Markesan,[Districtwide],All Students,All Students,814,100
+2018-19,School District,2,Dane,3332,,[All],No,Marshall,[Districtwide],All Students,All Students,1030,100
+2018-19,School District,5,Wood,3339,,[All],No,Marshfield Unified,[Districtwide],All Students,All Students,4068,100
+2018-19,School District,5,Juneau,3360,,[All],No,Mauston,[Districtwide],All Students,All Students,1462,100
+2018-19,School District,6,Dodge,3367,,[All],No,Mayville,[Districtwide],All Students,All Students,1100,100
+2018-19,School District,2,Dane,3381,,[All],No,McFarland,[Districtwide],All Students,All Students,4447,100
+2018-19,School District,10,Taylor,3409,,[All],No,Medford Area Public,[Districtwide],All Students,All Students,2755,100
+2018-19,School District,12,Ashland,3427,,[All],No,Mellen,[Districtwide],All Students,All Students,271,100
+2018-19,School District,4,Jackson,3428,,[All],No,Melrose-Mindoro,[Districtwide],All Students,All Students,768,100
+2018-19,School District,6,Winnebago,3430,,[All],No,Menasha Joint,[Districtwide],All Students,All Students,3432,100
+2018-19,School District,8,Menominee,3434,,[All],No,Menominee Indian,[Districtwide],All Students,All Students,921,100
+2018-19,School District,1,Waukesha,3437,,[All],No,Menomonee Falls,[Districtwide],All Students,All Students,4002,100
+2018-19,School District,11,Dunn,3444,,[All],No,Menomonie Area,[Districtwide],All Students,All Students,3426,100
+2018-19,School District,1,Ozaukee,3479,,[All],No,Mequon-Thiensville,[Districtwide],All Students,All Students,3771,100
+2018-19,School District,12,Iron,3484,,[All],No,Mercer,[Districtwide],All Students,All Students,145,100
+2018-19,School District,9,Lincoln,3500,,[All],No,Merrill Area,[Districtwide],All Students,All Students,3291,100
+2018-19,School District,1,Waukesha,3528,,[All],No,Merton Community,[Districtwide],All Students,All Students,844,100
+2018-19,School District,2,Dane,3549,,[All],No,Middleton-Cross Plains Area,[Districtwide],All Students,All Students,7450,100
+2018-19,School District,2,Rock,3612,,[All],No,Milton,[Districtwide],All Students,All Students,3487,100
+2018-19,School District,1,Milwaukee,3619,,[All],No,Milwaukee,[Districtwide],All Students,All Students,75431,100
+2018-19,School District,3,Iowa,3633,,[All],No,Mineral Point Unified,[Districtwide],All Students,All Students,763,100
+2018-19,School District,9,Oneida,3640,,[All],No,Minocqua J1,[Districtwide],All Students,All Students,613,100
+2018-19,School District,7,Manitowoc,3661,,[All],No,Mishicot,[Districtwide],All Students,All Students,859,100
+2018-19,School District,10,Buffalo,3668,,[All],No,Mondovi,[Districtwide],All Students,All Students,991,100
+2018-19,School District,2,Dane,3675,,[All],No,Monona Grove,[Districtwide],All Students,All Students,3454,100
+2018-19,School District,2,Green,3682,,[All],No,Monroe,[Districtwide],All Students,All Students,2353,100
+2018-19,School District,5,Marquette,3689,,[All],No,Montello,[Districtwide],All Students,All Students,668,100
+2018-19,School District,2,Green,3696,,[All],No,Monticello,[Districtwide],All Students,All Students,341,100
+2018-19,School District,9,Marathon,3787,,[All],No,Mosinee,[Districtwide],All Students,All Students,2016,100
+2018-19,School District,2,Dane,3794,,[All],No,Mount Horeb Area,[Districtwide],All Students,All Students,2522,100
+2018-19,School District,1,Waukesha,3822,,[All],No,Mukwonago,[Districtwide],All Students,All Students,5040,100
+2018-19,School District,1,Waukesha,3857,,[All],No,Muskego-Norway,[Districtwide],All Students,All Students,4850,100
+2018-19,School District,5,Juneau,3871,,[All],No,Necedah Area,[Districtwide],All Students,All Students,699,100
+2018-19,School District,6,Winnebago,3892,,[All],No,Neenah Joint,[Districtwide],All Students,All Students,6714,100
+2018-19,School District,10,Clark,3899,,[All],No,Neillsville,[Districtwide],All Students,All Students,927,100
+2018-19,School District,5,Wood,3906,,[All],No,Nekoosa,[Districtwide],All Students,All Students,1183,100
+2018-19,School District,10,Chippewa,3920,,[All],No,New Auburn,[Districtwide],All Students,All Students,316,100
+2018-19,School District,1,Waukesha,3925,,[All],No,New Berlin,[Districtwide],All Students,All Students,4348,100
+2018-19,School District,2,Green,3934,,[All],No,New Glarus,[Districtwide],All Students,All Students,989,100
+2018-19,School District,7,Calumet,3941,,[All],No,New Holstein,[Districtwide],All Students,All Students,1063,100
+2018-19,School District,5,Juneau,3948,,[All],No,New Lisbon,[Districtwide],All Students,All Students,660,100
+2018-19,School District,6,Waupaca,3955,,[All],No,New London,[Districtwide],All Students,All Students,2284,100
+2018-19,School District,11,Saint Croix,3962,,[All],No,New Richmond,[Districtwide],All Students,All Students,3441,100
+2018-19,School District,8,Marinette,3969,,[All],No,Niagara,[Districtwide],All Students,All Students,431,100
+2018-19,School District,1,Milwaukee,2177,,[All],No,Nicolet UHS,[Districtwide],All Students,All Students,1087,100
+2018-19,School District,1,Waukesha,3976,,[All],No,Norris,[Districtwide],All Students,All Students,31,100
+2018-19,School District,2,Racine,4690,,[All],No,North Cape,[Districtwide],All Students,All Students,198,100
+2018-19,School District,3,Crawford,2016,,[All],No,North Crawford,[Districtwide],All Students,All Students,456,100
+2018-19,School District,6,Fond du Lac,3983,,[All],No,North Fond du Lac,[Districtwide],All Students,All Students,1446,100
+2018-19,School District,1,Waukesha,3514,,[All],No,North Lake,[Districtwide],All Students,All Students,335,100
+2018-19,School District,9,Vilas,616,,[All],No,North Lakeland,[Districtwide],All Students,All Students,152,100
+2018-19,School District,1,Ozaukee,1945,,[All],No,Northern Ozaukee,[Districtwide],All Students,All Students,1030,100
+2018-19,School District,9,Vilas,1526,,[All],No,Northland Pines,[Districtwide],All Students,All Students,1306,100
+2018-19,School District,12,Washburn,3654,,[All],No,Northwood,[Districtwide],All Students,All Students,325,100
+2018-19,School District,4,Monroe,3990,,[All],No,Norwalk-Ontario-Wilton,[Districtwide],All Students,All Students,658,100
+2018-19,School District,2,Racine,4011,,[All],No,Norway J7,[Districtwide],All Students,All Students,105,100
+2018-19,School District,1,Milwaukee,4018,,[All],No,Oak Creek-Franklin Joint,[Districtwide],All Students,All Students,6604,100
+2018-19,School District,6,Fond du Lac,4025,,[All],No,Oakfield,[Districtwide],All Students,All Students,548,100
+2018-19,School District,1,Waukesha,4060,,[All],No,Oconomowoc Area,[Districtwide],All Students,All Students,5272,100
+2018-19,School District,8,Oconto,4074,,[All],No,Oconto Falls Public,[Districtwide],All Students,All Students,1691,100
+2018-19,School District,8,Oconto,4067,,[All],No,Oconto Unified,[Districtwide],All Students,All Students,1006,100
+2018-19,School District,6,Winnebago,4088,,[All],No,Omro,[Districtwide],All Students,All Students,1154,100
+2018-19,School District,4,La Crosse,4095,,[All],No,Onalaska,[Districtwide],All Students,All Students,3133,100
+2018-19,School District,7,Sheboygan,4137,,[All],No,Oostburg,[Districtwide],All Students,All Students,995,100
+2018-19,School District,2,Dane,4144,,[All],No,Oregon,[Districtwide],All Students,All Students,4091,100
+2018-19,School District,11,Polk,4165,,[All],No,Osceola,[Districtwide],All Students,All Students,1692,100
+2018-19,School District,6,Winnebago,4179,,[All],No,Oshkosh Area,[Districtwide],All Students,All Students,9911,100
+2018-19,School District,10,Trempealeau,4186,,[All],No,Osseo-Fairchild,[Districtwide],All Students,All Students,817,100
+2018-19,School District,10,Clark,4207,,[All],No,Owen-Withee,[Districtwide],All Students,All Students,485,100
+2018-19,School District,2,Jefferson,4221,,[All],No,Palmyra-Eagle Area,[Districtwide],All Students,All Students,769,100
+2018-19,School District,5,Columbia,4228,,[All],No,Pardeeville Area,[Districtwide],All Students,All Students,812,100
+2018-19,School District,2,Kenosha,4235,,[All],No,Paris J1,[Districtwide],All Students,All Students,277,100
+2018-19,School District,2,Rock,4151,,[All],No,Parkview,[Districtwide],All Students,All Students,803,100
+2018-19,School District,3,Lafayette,490,,[All],No,Pecatonica Area,[Districtwide],All Students,All Students,400,100
+2018-19,School District,11,Pepin,4270,,[All],No,Pepin Area,[Districtwide],All Students,All Students,225,100
+2018-19,School District,8,Marinette,4305,,[All],No,Peshtigo,[Districtwide],All Students,All Students,1188,100
+2018-19,School District,1,Waukesha,4312,,[All],No,Pewaukee,[Districtwide],All Students,All Students,2995,100
+2018-19,School District,9,Vilas,4330,,[All],No,Phelps,[Districtwide],All Students,All Students,132,100
+2018-19,School District,12,Price,4347,,[All],No,Phillips,[Districtwide],All Students,All Students,759,100
+2018-19,School District,5,Wood,4368,,[All],No,Pittsville,[Districtwide],All Students,All Students,575,100
+2018-19,School District,3,Grant,4389,,[All],No,Platteville,[Districtwide],All Students,All Students,1519,100
+2018-19,School District,11,Pierce,4459,,[All],No,Plum City,[Districtwide],All Students,All Students,276,100
+2018-19,School District,7,Sheboygan,4473,,[All],No,Plymouth Joint,[Districtwide],All Students,All Students,2179,100
+2018-19,School District,5,Wood,4508,,[All],No,Port Edwards,[Districtwide],All Students,All Students,448,100
+2018-19,School District,1,Ozaukee,4515,,[All],No,Port Washington-Saukville,[Districtwide],All Students,All Students,2616,100
+2018-19,School District,5,Columbia,4501,,[All],No,Portage Community,[Districtwide],All Students,All Students,2316,100
+2018-19,School District,3,Grant,4529,,[All],No,Potosi,[Districtwide],All Students,All Students,333,100
+2018-19,School District,5,Columbia,4536,,[All],No,Poynette,[Districtwide],All Students,All Students,1075,100
+2018-19,School District,3,Crawford,4543,,[All],No,Prairie du Chien Area,[Districtwide],All Students,All Students,1163,100
+2018-19,School District,11,Barron,4557,,[All],No,Prairie Farm Public,[Districtwide],All Students,All Students,386,100
+2018-19,School District,9,Price,4571,,[All],No,Prentice,[Districtwide],All Students,All Students,340,100
+2018-19,School District,11,Pierce,4578,,[All],No,Prescott,[Districtwide],All Students,All Students,1320,100
+2018-19,School District,5,Green Lake,4606,,[All],No,Princeton,[Districtwide],All Students,All Students,336,100
+2018-19,School District,7,Brown,4613,,[All],No,Pulaski Community,[Districtwide],All Students,All Students,3777,100
+2018-19,School District,1,Racine,4620,,[All],No,Racine Unified,[Districtwide],All Students,All Students,17862,100
+2018-19,School District,2,Kenosha,4627,,[All],No,Randall J1,[Districtwide],All Students,All Students,732,100
+2018-19,School District,5,Dodge,4634,,[All],No,Randolph,[Districtwide],All Students,All Students,553,100
+2018-19,School District,7,Sheboygan,4641,,[All],No,Random Lake,[Districtwide],All Students,All Students,741,100
+2018-19,School District,2,Racine,4686,,[All],No,Raymond #14,[Districtwide],All Students,All Students,412,100
+2018-19,School District,5,Sauk,4753,,[All],No,Reedsburg,[Districtwide],All Students,All Students,2862,100
+2018-19,School District,7,Manitowoc,4760,,[All],No,Reedsville,[Districtwide],All Students,All Students,577,100
+2018-19,School District,9,Oneida,4781,,[All],No,Rhinelander,[Districtwide],All Students,All Students,2350,100
+2018-19,School District,9,Taylor,4795,,[All],No,Rib Lake,[Districtwide],All Students,All Students,473,100
+2018-19,School District,11,Barron,4802,,[All],No,Rice Lake Area,[Districtwide],All Students,All Students,2276,100
+2018-19,School District,3,Richland,4851,,[All],No,Richland,[Districtwide],All Students,All Students,1299,100
+2018-19,School District,1,Waukesha,3122,,[All],No,Richmond,[Districtwide],All Students,All Students,412,100
+2018-19,School District,5,Columbia,4865,,[All],No,Rio Community,[Districtwide],All Students,All Students,407,100
+2018-19,School District,6,Fond du Lac,4872,,[All],No,Ripon Area,[Districtwide],All Students,All Students,1600,100
+2018-19,School District,11,Pierce,4893,,[All],No,River Falls,[Districtwide],All Students,All Students,3455,100
+2018-19,School District,3,Grant,4904,,[All],No,River Ridge,[Districtwide],All Students,All Students,542,100
+2018-19,School District,3,Sauk,5523,,[All],No,River Valley,[Districtwide],All Students,All Students,1194,100
+2018-19,School District,3,Grant,3850,,[All],No,Riverdale,[Districtwide],All Students,All Students,695,100
+2018-19,School District,6,Fond du Lac,4956,,[All],No,Rosendale-Brandon,[Districtwide],All Students,All Students,1047,100
+2018-19,School District,5,Portage,4963,,[All],No,Rosholt,[Districtwide],All Students,All Students,530,100
+2018-19,School District,4,Juneau,1673,,[All],No,Royall,[Districtwide],All Students,All Students,508,100
+2018-19,School District,11,Saint Croix,2422,,[All],No,Saint Croix Central,[Districtwide],All Students,All Students,1726,100
+2018-19,School District,11,Polk,5019,,[All],No,Saint Croix Falls,[Districtwide],All Students,All Students,1084,100
+2018-19,School District,1,Milwaukee,5026,,[All],No,Saint Francis,[Districtwide],All Students,All Students,1123,100
+2018-19,School District,2,Kenosha,5068,,[All],No,Salem,[Districtwide],All Students,All Students,969,100
+2018-19,School District,5,Sauk,5100,,[All],No,Sauk Prairie,[Districtwide],All Students,All Students,2785,100
+2018-19,School District,3,Crawford,5124,,[All],No,Seneca Area,[Districtwide],All Students,All Students,290,100
+2018-19,School District,7,Door,5130,,[All],No,Sevastopol,[Districtwide],All Students,All Students,613,100
+2018-19,School District,7,Outagamie,5138,,[All],No,Seymour Community,[Districtwide],All Students,All Students,2218,100
+2018-19,School District,2,Walworth,5258,,[All],No,Sharon J11,[Districtwide],All Students,All Students,262,100
+2018-19,School District,8,Shawano,5264,,[All],No,Shawano,[Districtwide],All Students,All Students,2460,100
+2018-19,School District,7,Sheboygan,5271,,[All],No,Sheboygan Area,[Districtwide],All Students,All Students,10060,100
+2018-19,School District,7,Sheboygan,5278,,[All],No,Sheboygan Falls,[Districtwide],All Students,All Students,1688,100
+2018-19,School District,11,Washburn,5306,,[All],No,Shell Lake,[Districtwide],All Students,All Students,685,100
+2018-19,School District,6,Outagamie,5348,,[All],No,Shiocton,[Districtwide],All Students,All Students,699,100
+2018-19,School District,1,Milwaukee,5355,,[All],No,Shorewood,[Districtwide],All Students,All Students,2036,100
+2018-19,School District,3,Lafayette,5362,,[All],No,Shullsburg,[Districtwide],All Students,All Students,370,100
+2018-19,School District,2,Kenosha,5369,,[All],No,Silver Lake J1,[Districtwide],All Students,All Students,475,100
+2018-19,School District,11,Burnett,5376,,[All],No,Siren,[Districtwide],All Students,All Students,469,100
+2018-19,School District,6,Washington,5390,,[All],No,Slinger,[Districtwide],All Students,All Students,3368,100
+2018-19,School District,12,Douglas,5397,,[All],No,Solon Springs,[Districtwide],All Students,All Students,273,100
+2018-19,School District,11,Saint Croix,5432,,[All],No,Somerset,[Districtwide],All Students,All Students,1499,100
+2018-19,School District,1,Milwaukee,5439,,[All],No,South Milwaukee,[Districtwide],All Students,All Students,3062,100
+2018-19,School District,12,Bayfield,4522,,[All],No,South Shore,[Districtwide],All Students,All Students,177,100
+2018-19,School District,7,Door,5457,,[All],No,Southern Door County,[Districtwide],All Students,All Students,1009,100
+2018-19,School District,3,Grant,2485,,[All],No,Southwestern Wisconsin,[Districtwide],All Students,All Students,521,100
+2018-19,School District,4,Monroe,5460,,[All],No,Sparta Area,[Districtwide],All Students,All Students,2981,100
+2018-19,School District,10,Marathon,5467,,[All],No,Spencer,[Districtwide],All Students,All Students,686,100
+2018-19,School District,11,Washburn,5474,,[All],No,Spooner Area,[Districtwide],All Students,All Students,1158,100
+2018-19,School District,11,Pierce,5586,,[All],No,Spring Valley,[Districtwide],All Students,All Students,768,100
+2018-19,School District,10,Chippewa,5593,,[All],No,Stanley-Boyd Area,[Districtwide],All Students,All Students,1099,100
+2018-19,School District,5,Portage,5607,,[All],No,Stevens Point Area Public,[Districtwide],All Students,All Students,7144,100
+2018-19,School District,7,Calumet,5614,,[All],No,Stockbridge,[Districtwide],All Students,All Students,201,100
+2018-19,School District,1,Waukesha,3542,,[All],No,Stone Bank,[Districtwide],All Students,All Students,353,100
+2018-19,School District,2,Dane,5621,,[All],No,Stoughton Area,[Districtwide],All Students,All Students,2963,100
+2018-19,School District,9,Marathon,5628,,[All],No,Stratford,[Districtwide],All Students,All Students,884,100
+2018-19,School District,7,Door,5642,,[All],No,Sturgeon Bay,[Districtwide],All Students,All Students,1145,100
+2018-19,School District,2,Dane,5656,,[All],No,Sun Prairie Area,[Districtwide],All Students,All Students,8521,100
+2018-19,School District,12,Douglas,5663,,[All],No,Superior,[Districtwide],All Students,All Students,4622,100
+2018-19,School District,8,Oconto,5670,,[All],No,Suring Public,[Districtwide],All Students,All Students,378,100
+2018-19,School District,1,Waukesha,3510,,[All],No,Swallow,[Districtwide],All Students,All Students,462,100
+2018-19,School District,10,Clark,5726,,[All],No,Thorp,[Districtwide],All Students,All Students,602,100
+2018-19,School District,9,Oneida,5733,,[All],No,Three Lakes,[Districtwide],All Students,All Students,535,100
+2018-19,School District,8,Shawano,5740,,[All],No,Tigerton,[Districtwide],All Students,All Students,242,100
+2018-19,School District,4,Monroe,5747,,[All],No,Tomah Area,[Districtwide],All Students,All Students,3121,100
+2018-19,School District,9,Lincoln,5754,,[All],No,Tomahawk,[Districtwide],All Students,All Students,1224,100
+2018-19,School District,5,Portage,126,,[All],No,Tomorrow River,[Districtwide],All Students,All Students,1195,100
+2018-19,School District,2,Kenosha,5780,,[All],No,Trevor-Wilmot Consolidated,[Districtwide],All Students,All Students,564,100
+2018-19,School District,5,Waushara,4375,,[All],No,Tri-County Area,[Districtwide],All Students,All Students,611,100
+2018-19,School District,11,Barron,5810,,[All],No,Turtle Lake,[Districtwide],All Students,All Students,458,100
+2018-19,School District,2,Kenosha,5817,,[All],No,Twin Lakes #4,[Districtwide],All Students,All Students,316,100
+2018-19,School District,7,Manitowoc,5824,,[All],No,Two Rivers Public,[Districtwide],All Students,All Students,1821,100
+2018-19,School District,2,Racine,5859,,[All],No,Union Grove J1,[Districtwide],All Students,All Students,809,100
+2018-19,School District,2,Racine,5852,,[All],No,Union Grove UHS,[Districtwide],All Students,All Students,986,100
+2018-19,School District,11,Polk,238,,[All],No,Unity,[Districtwide],All Students,All Students,937,100
+2018-19,School District,7,Manitowoc,5866,,[All],No,Valders Area,[Districtwide],All Students,All Students,980,100
+2018-19,School District,2,Dane,5901,,[All],No,Verona Area,[Districtwide],All Students,All Students,5656,100
+2018-19,School District,4,Vernon,5985,,[All],No,Viroqua Area,[Districtwide],All Students,All Students,1165,100
+2018-19,School District,8,Forest,5992,,[All],No,Wabeno Area,[Districtwide],All Students,All Students,382,100
+2018-19,School District,2,Walworth,6022,,[All],No,Walworth J1,[Districtwide],All Students,All Students,458,100
+2018-19,School District,12,Bayfield,6027,,[All],No,Washburn,[Districtwide],All Students,All Students,572,100
+2018-19,School District,7,Door,6069,,[All],No,Washington,[Districtwide],All Students,All Students,80,100
+2018-19,School District,2,Racine,6104,,[All],No,Washington-Caldwell,[Districtwide],All Students,All Students,180,100
+2018-19,School District,2,Racine,6113,,[All],No,Waterford Graded J1,[Districtwide],All Students,All Students,1526,100
+2018-19,School District,2,Racine,6083,,[All],No,Waterford UHS,[Districtwide],All Students,All Students,1058,100
+2018-19,School District,2,Jefferson,6118,,[All],No,Waterloo,[Districtwide],All Students,All Students,790,100
+2018-19,School District,2,Jefferson,6125,,[All],No,Watertown Unified,[Districtwide],All Students,All Students,3621,100
+2018-19,School District,1,Waukesha,6174,,[All],No,Waukesha,[Districtwide],All Students,All Students,12739,100
+2018-19,School District,2,Dane,6181,,[All],No,Waunakee Community,[Districtwide],All Students,All Students,4339,100
+2018-19,School District,5,Waupaca,6195,,[All],No,Waupaca,[Districtwide],All Students,All Students,2113,100
+2018-19,School District,6,Fond du Lac,6216,,[All],No,Waupun,[Districtwide],All Students,All Students,1947,100
+2018-19,School District,9,Marathon,6223,,[All],No,Wausau,[Districtwide],All Students,All Students,8311,100
+2018-19,School District,8,Marinette,6230,,[All],No,Wausaukee,[Districtwide],All Students,All Students,418,100
+2018-19,School District,5,Waushara,6237,,[All],No,Wautoma Area,[Districtwide],All Students,All Students,1355,100
+2018-19,School District,1,Milwaukee,6244,,[All],No,Wauwatosa,[Districtwide],All Students,All Students,7219,100
+2018-19,School District,3,Crawford,6251,,[All],No,Wauzeka-Steuben,[Districtwide],All Students,All Students,282,100
+2018-19,School District,11,Burnett,6293,,[All],No,Webster,[Districtwide],All Students,All Students,672,100
+2018-19,School District,1,Milwaukee,6300,,[All],No,West Allis-West Milwaukee,[Districtwide],All Students,All Students,8240,100
+2018-19,School District,6,Washington,6307,,[All],No,West Bend,[Districtwide],All Students,All Students,6582,100
+2018-19,School District,7,Brown,6328,,[All],No,West De Pere,[Districtwide],All Students,All Students,3556,100
+2018-19,School District,4,La Crosse,6370,,[All],No,West Salem,[Districtwide],All Students,All Students,1797,100
+2018-19,School District,4,Vernon,6321,,[All],No,Westby Area,[Districtwide],All Students,All Students,1102,100
+2018-19,School District,5,Marquette,6335,,[All],No,Westfield,[Districtwide],All Students,All Students,1061,100
+2018-19,School District,3,Sauk,6354,,[All],No,Weston,[Districtwide],All Students,All Students,278,100
+2018-19,School District,6,Waupaca,6384,,[All],No,Weyauwega-Fremont,[Districtwide],All Students,All Students,857,100
+2018-19,School District,2,Kenosha,6412,,[All],No,Wheatland J1,[Districtwide],All Students,All Students,542,100
+2018-19,School District,8,Langlade,6440,,[All],No,White Lake,[Districtwide],All Students,All Students,145,100
+2018-19,School District,1,Milwaukee,6419,,[All],No,Whitefish Bay,[Districtwide],All Students,All Students,2992,100
+2018-19,School District,4,Trempealeau,6426,,[All],No,Whitehall,[Districtwide],All Students,All Students,768,100
+2018-19,School District,2,Walworth,6461,,[All],No,Whitewater Unified,[Districtwide],All Students,All Students,1940,100
+2018-19,School District,1,Milwaukee,6470,,[All],No,Whitnall,[Districtwide],All Students,All Students,2506,100
+2018-19,School District,5,Waushara,6475,,[All],No,Wild Rose,[Districtwide],All Students,All Students,580,100
+2018-19,School District,2,Walworth,6482,,[All],No,Williams Bay,[Districtwide],All Students,All Students,721,100
+2018-19,School District,2,Kenosha,6545,,[All],No,Wilmot UHS,[Districtwide],All Students,All Students,1026,100
+2018-19,School District,6,Winnebago,6608,,[All],No,Winneconne Community,[Districtwide],All Students,All Students,1682,100
+2018-19,School District,12,Sawyer,6615,,[All],No,Winter,[Districtwide],All Students,All Students,249,100
+2018-19,School District,5,Sauk,6678,,[All],No,Wisconsin Dells,[Districtwide],All Students,All Students,1787,100
+2018-19,School District,2,Dane,469,,[All],No,Wisconsin Heights,[Districtwide],All Students,All Students,776,100
+2018-19,School District,5,Wood,6685,,[All],No,Wisconsin Rapids,[Districtwide],All Students,All Students,5114,100
+2018-19,School District,8,Shawano,6692,,[All],No,Wittenberg-Birnamwood,[Districtwide],All Students,All Students,1178,100
+2018-19,School District,4,Juneau,6713,,[All],No,Wonewoc-Union Center,[Districtwide],All Students,All Students,345,100
+2018-19,School District,9,Vilas,6720,,[All],No,Woodruff J1,[Districtwide],All Students,All Students,545,100
+2018-19,School District,7,Brown,6734,,[All],No,Wrightstown Community,[Districtwide],All Students,All Students,1367,100
+2018-19,School District,2,Racine,6748,,[All],No,Yorkville J2,[Districtwide],All Students,All Students,438,100

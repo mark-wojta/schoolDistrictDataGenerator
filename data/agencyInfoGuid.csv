@@ -1,0 +1,26 @@
+Field No,Field Name,Field Datatype,Length,Field Description
+1,SCHOOL_YEAR,Text,7,School year of data
+2,CESA,Text,10,Cooperative Educational Service Agency
+3,COUNTY_CODE,Text,2,County of main school office
+4,COUNTY_NAME,Text,20,County of main district office
+5,ATHLETIC_CONFERENCE_CODE,Text,4,Primary athletic conference of the district.
+6,ATHLETIC_CONFERENCE_NAME,Text,50,Primary athletic conference name of the district.
+7,WTCS_CODE,Text,2,Wisconsin Technical College System Code
+8,LOCALE_CODE,Text,3,Geographic status code on an urban continuum that ranges from “large city” to “rural.” 
+9,LOCALE_NAME,Text,50,Geographic status name on an urban continuum that ranges from “large city” to “rural.” 
+10,LATITUDE,decimal,"(22,6)",Latitude of main school office
+11,LONGITUDE,decimal,"(22,6)",Longitude of main school office
+12,FULL_NCES_CODE,Text,30,Unique permanent ID assigned by NCES to the school/district
+13,DISTRICT_CODE,Text,4,District code - Unique 4 digit code assigned by DPI
+14,SCHOOL_CODE,Text,4,School code - 4 digit code unique within district and assigned by DPI
+15,DISTRICT_NAME,Text,100,District name
+16,AGENCY_TYPE,Text,50,School/district type
+17,SCHOOL_NAME,Text,100,School name
+18,GRADE_GROUP,Text,10,School grade group. Grade ranges of schools in the same GRADE_GROUP may vary. See also LOW_GRADE and HIGH_GRADE
+19,LOW_GRADE,Text,2,Lowest grade level of the school/district
+20,HIGH_GRADE,Text,2,Highest grade level of the school/district
+21,SCHOOL_SIZE,Text,50,"Size of the school calculated based on total students on TFS in school that year;  values: Tiny (1 to 5), Small (6 to 199), Medium (200 to 499), Large (500 to 2000)"
+22,CHARTER_IND,Text,10,Whether school is a Charter
+24,VIRTUAL_SCH_IND,Text,10,Whether school is a Virtual
+25,TITLE_1A_PROGRAM_CODE,Text,5,Title 1 funding code
+26,TITLE_1A_PROGRAM_NAME,Text,100,Title 1 funding name

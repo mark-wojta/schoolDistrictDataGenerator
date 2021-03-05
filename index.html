@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+      <title>ArcGIS API for JavaScript Tutorials: Create a JavaScript starter app</title>
+
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Can also change this section to change widgets color. -->
+      <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+      <script src="https://js.arcgis.com/4.18/"></script>
+      <link rel="stylesheet" href="https://js.arcgis.com/4.18/dgrid/css/dgrid.css">
+
+    </head>
+
+    <body>
+        <div id="viewDiv"></div>
+        <div id="actions" class="esri-widget">
+          <div id="btn1" type="esri-button">Public Schools</div>
+          <div id="btn2" type="esri-button">Public Libraries</div>
+          <div id="btn3" type="esri-button">School Districts</div>
+        </div>
+        <div id="schoolName" style="padding:5px; margin:5px; background-color:#eee;"></div>
+        <div id="schoolType" style="padding:5px; margin:5px; background-color:#eee;"></div>
+        <div id="county" style="padding:5px; margin:5px; background-color:#eee;"></div>
+        <div id="instructionsDays" style="padding:5px; margin:5px; background-color:#eee;"></div>
+
+        <!-- scripts -->
+        <script src="lib/jquery-3.5.1.min.js"></script>
+        <script src="js/loadMap.js"></script>
+
+    </body>
+</html>

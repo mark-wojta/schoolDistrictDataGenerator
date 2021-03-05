@@ -1,0 +1,565 @@
+SCHOOL_YEAR,AGENCY_TYPE,CESA,COUNTY,DISTRICT_CODE,SCHOOL_CODE,GRADE_GROUP,CHARTER_IND,DISTRICT_NAME,SCHOOL_NAME,GROUP_BY,GROUP_BY_VALUE,REMOVAL_TYPE_DESCRIPTION,TFS_ENROLLMENT_COUNT,REMOVAL_COUNT
+2018-19,School District,10,Clark,7,,[All],No,Abbotsford,[Districtwide],All Students,All Students,Out of School Suspension,764,15
+2018-19,School District,5,Adams,14,,[All],No,Adams-Friendship Area,[Districtwide],All Students,All Students,Out of School Suspension,1494,208
+2018-19,School District,2,Green,63,,[All],No,Albany,[Districtwide],All Students,All Students,Out of School Suspension,339,14
+2018-19,School District,7,Kewaunee,70,,[All],No,Algoma,[Districtwide],All Students,All Students,Out of School Suspension,706,2
+2018-19,School District,4,Buffalo,84,,[All],No,Alma,[Districtwide],All Students,All Students,,246,0
+2018-19,School District,4,Jackson,91,,[All],No,Alma Center,[Districtwide],All Students,All Students,Expulsion without Services Offered,607,4
+2018-19,School District,4,Jackson,91,,[All],No,Alma Center,[Districtwide],All Students,All Students,Out of School Suspension,607,31
+2018-19,School District,5,Portage,105,,[All],No,Almond-Bancroft,[Districtwide],All Students,All Students,Out of School Suspension,398,11
+2018-19,School District,10,Eau Claire,112,,[All],No,Altoona,[Districtwide],All Students,All Students,Out of School Suspension,1599,78
+2018-19,School District,11,Polk,119,,[All],No,Amery,[Districtwide],All Students,All Students,Out of School Suspension,1554,96
+2018-19,School District,9,Langlade,140,,[All],No,Antigo Unified,[Districtwide],All Students,All Students,Expulsion with Services Offered,2262,1
+2018-19,School District,9,Langlade,140,,[All],No,Antigo Unified,[Districtwide],All Students,All Students,Out of School Suspension,2262,182
+2018-19,School District,6,Outagamie,147,,[All],No,Appleton Area,[Districtwide],All Students,All Students,Out of School Suspension,16291,670
+2018-19,School District,4,Trempealeau,154,,[All],No,Arcadia,[Districtwide],All Students,All Students,Out of School Suspension,1302,20
+2018-19,School District,3,Lafayette,161,,[All],No,Argyle,[Districtwide],All Students,All Students,Out of School Suspension,292,5
+2018-19,School District,1,Waukesha,2450,,[All],No,Arrowhead UHS,[Districtwide],All Students,All Students,Out of School Suspension,2139,46
+2018-19,School District,12,Ashland,170,,[All],No,Ashland,[Districtwide],All Students,All Students,Out of School Suspension,2093,194
+2018-19,School District,7,Brown,182,,[All],No,Ashwaubenon,[Districtwide],All Students,All Students,Out of School Suspension,3313,142
+2018-19,School District,9,Marathon,196,,[All],No,Athens,[Districtwide],All Students,All Students,Out of School Suspension,415,2
+2018-19,School District,5,Wood,203,,[All],No,Auburndale,[Districtwide],All Students,All Students,Out of School Suspension,818,27
+2018-19,School District,10,Eau Claire,217,,[All],No,Augusta,[Districtwide],All Students,All Students,Expulsion with Services Offered,624,1
+2018-19,School District,10,Eau Claire,217,,[All],No,Augusta,[Districtwide],All Students,All Students,Expulsion without Services Offered,624,2
+2018-19,School District,10,Eau Claire,217,,[All],No,Augusta,[Districtwide],All Students,All Students,Out of School Suspension,624,53
+2018-19,School District,11,Saint Croix,231,,[All],No,Baldwin-Woodville Area,[Districtwide],All Students,All Students,Out of School Suspension,1745,11
+2018-19,School District,4,La Crosse,245,,[All],No,Bangor,[Districtwide],All Students,All Students,Out of School Suspension,588,10
+2018-19,School District,5,Sauk,280,,[All],No,Baraboo,[Districtwide],All Students,All Students,Out of School Suspension,2972,284
+2018-19,School District,3,Iowa,287,,[All],No,Barneveld,[Districtwide],All Students,All Students,Out of School Suspension,438,2
+2018-19,School District,11,Barron,308,,[All],No,Barron Area,[Districtwide],All Students,All Students,Out of School Suspension,1241,46
+2018-19,School District,12,Bayfield,315,,[All],No,Bayfield,[Districtwide],All Students,All Students,Expulsion without Services Offered,365,1
+2018-19,School District,12,Bayfield,315,,[All],No,Bayfield,[Districtwide],All Students,All Students,Out of School Suspension,365,19
+2018-19,School District,6,Dodge,336,,[All],No,Beaver Dam Unified,[Districtwide],All Students,All Students,Expulsion with Services Offered,3508,2
+2018-19,School District,6,Dodge,336,,[All],No,Beaver Dam Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,3508,5
+2018-19,School District,6,Dodge,336,,[All],No,Beaver Dam Unified,[Districtwide],All Students,All Students,Out of School Suspension,3508,281
+2018-19,School District,8,Marinette,4263,,[All],No,Beecher-Dunbar-Pembine,[Districtwide],All Students,All Students,Out of School Suspension,233,43
+2018-19,School District,2,Dane,350,,[All],No,Belleville,[Districtwide],All Students,All Students,Out of School Suspension,887,11
+2018-19,School District,3,Lafayette,364,,[All],No,Belmont Community,[Districtwide],All Students,All Students,Expulsion without Services Offered,384,2
+2018-19,School District,3,Lafayette,364,,[All],No,Belmont Community,[Districtwide],All Students,All Students,Out of School Suspension,384,3
+2018-19,School District,2,Rock,413,,[All],No,Beloit,[Districtwide],All Students,All Students,Expulsion with Services Offered,6474,25
+2018-19,School District,2,Rock,413,,[All],No,Beloit,[Districtwide],All Students,All Students,Expulsion without Services Offered,6474,5
+2018-19,School District,2,Rock,413,,[All],No,Beloit,[Districtwide],All Students,All Students,Out of School Suspension,6474,2163
+2018-19,School District,2,Rock,422,,[All],No,Beloit Turner,[Districtwide],All Students,All Students,Expulsion with Services Offered,1566,1
+2018-19,School District,2,Rock,422,,[All],No,Beloit Turner,[Districtwide],All Students,All Students,Out of School Suspension,1566,65
+2018-19,School District,3,Lafayette,427,,[All],No,Benton,[Districtwide],All Students,All Students,Out of School Suspension,200,3
+2018-19,School District,6,Green Lake,434,,[All],No,Berlin Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,1644,2
+2018-19,School District,6,Green Lake,434,,[All],No,Berlin Area,[Districtwide],All Students,All Students,Out of School Suspension,1644,128
+2018-19,School District,2,Walworth,6013,,[All],No,Big Foot UHS,[Districtwide],All Students,All Students,Expulsion with Services Offered,489,1
+2018-19,School District,2,Walworth,6013,,[All],No,Big Foot UHS,[Districtwide],All Students,All Students,Out of School Suspension,489,16
+2018-19,School District,11,Washburn,441,,[All],No,Birchwood,[Districtwide],All Students,All Students,Expulsion with Services Offered,292,1
+2018-19,School District,11,Washburn,441,,[All],No,Birchwood,[Districtwide],All Students,All Students,Out of School Suspension,292,5
+2018-19,School District,3,Lafayette,2240,,[All],No,Black Hawk,[Districtwide],All Students,All Students,Out of School Suspension,383,1
+2018-19,School District,4,Jackson,476,,[All],No,Black River Falls,[Districtwide],All Students,All Students,Out of School Suspension,1742,20
+2018-19,School District,4,Trempealeau,485,,[All],No,Blair-Taylor,[Districtwide],All Students,All Students,Out of School Suspension,614,8
+2018-19,School District,10,Chippewa,497,,[All],No,Bloomer,[Districtwide],All Students,All Students,Out of School Suspension,1279,50
+2018-19,School District,8,Shawano,602,,[All],No,Bonduel,[Districtwide],All Students,All Students,Out of School Suspension,737,16
+2018-19,School District,3,Grant,609,,[All],No,Boscobel Area,[Districtwide],All Students,All Students,Out of School Suspension,796,18
+2018-19,School District,8,Shawano,623,,[All],No,Bowler,[Districtwide],All Students,All Students,Out of School Suspension,331,11
+2018-19,School District,11,Dunn,637,,[All],No,Boyceville Community,[Districtwide],All Students,All Students,Out of School Suspension,712,3
+2018-19,School District,2,Kenosha,657,,[All],No,Brighton #1,[Districtwide],All Students,All Students,Out of School Suspension,226,16
+2018-19,School District,7,Calumet,658,,[All],No,Brillion,[Districtwide],All Students,All Students,Out of School Suspension,978,5
+2018-19,School District,2,Kenosha,665,,[All],No,Bristol #1,[Districtwide],All Students,All Students,Out of School Suspension,851,1
+2018-19,School District,2,Green,700,,[All],No,Brodhead,[Districtwide],All Students,All Students,Out of School Suspension,1018,23
+2018-19,School District,1,Milwaukee,721,,[All],No,Brown Deer,[Districtwide],All Students,All Students,Out of School Suspension,1521,240
+2018-19,School District,10,Rusk,735,,[All],No,Bruce,[Districtwide],All Students,All Students,Out of School Suspension,441,19
+2018-19,School District,2,Racine,777,,[All],No,Burlington Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,3145,1
+2018-19,School District,2,Racine,777,,[All],No,Burlington Area,[Districtwide],All Students,All Students,Out of School Suspension,3145,80
+2018-19,School District,12,Ashland,840,,[All],No,Butternut,[Districtwide],All Students,All Students,Out of School Suspension,206,6
+2018-19,School District,10,Chippewa,870,,[All],No,Cadott Community,[Districtwide],All Students,All Students,Expulsion without Services Offered,830,2
+2018-19,School District,10,Chippewa,870,,[All],No,Cadott Community,[Districtwide],All Students,All Students,Out of School Suspension,830,110
+2018-19,School District,5,Columbia,882,,[All],No,Cambria-Friesland,[Districtwide],All Students,All Students,Out of School Suspension,371,13
+2018-19,School District,2,Dane,896,,[All],No,Cambridge,[Districtwide],All Students,All Students,Out of School Suspension,908,13
+2018-19,School District,11,Barron,903,,[All],No,Cameron,[Districtwide],All Students,All Students,Out of School Suspension,1149,8
+2018-19,School District,6,Fond du Lac,910,,[All],No,Campbellsport,[Districtwide],All Students,All Students,Expulsion without Services Offered,1335,3
+2018-19,School District,6,Fond du Lac,910,,[All],No,Campbellsport,[Districtwide],All Students,All Students,Out of School Suspension,1335,40
+2018-19,School District,4,Monroe,980,,[All],No,Cashton,[Districtwide],All Students,All Students,Out of School Suspension,610,8
+2018-19,School District,3,Grant,994,,[All],No,Cassville,[Districtwide],All Students,All Students,,195,0
+2018-19,School District,7,Sheboygan,1029,,[All],No,Cedar Grove-Belgium Area,[Districtwide],All Students,All Students,Out of School Suspension,986,4
+2018-19,School District,1,Ozaukee,1015,,[All],No,Cedarburg,[Districtwide],All Students,All Students,Out of School Suspension,3122,38
+2018-19,School District,2,Kenosha,5054,,[All],No,Central/Westosha UHS,[Districtwide],All Students,All Students,Out of School Suspension,1126,137
+2018-19,School District,12,Price,1071,,[All],No,Chequamegon,[Districtwide],All Students,All Students,Expulsion without Services Offered,768,1
+2018-19,School District,12,Price,1071,,[All],No,Chequamegon,[Districtwide],All Students,All Students,Out of School Suspension,768,53
+2018-19,School District,11,Barron,1080,,[All],No,Chetek-Weyerhaeuser Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,989,2
+2018-19,School District,11,Barron,1080,,[All],No,Chetek-Weyerhaeuser Area,[Districtwide],All Students,All Students,Out of School Suspension,989,32
+2018-19,School District,7,Calumet,1085,,[All],No,Chilton,[Districtwide],All Students,All Students,Out of School Suspension,1114,26
+2018-19,School District,10,Chippewa,1092,,[All],No,Chippewa Falls Area Unified,[Districtwide],All Students,All Students,Expulsion with Services Offered,5052,3
+2018-19,School District,10,Chippewa,1092,,[All],No,Chippewa Falls Area Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,5052,2
+2018-19,School District,10,Chippewa,1092,,[All],No,Chippewa Falls Area Unified,[Districtwide],All Students,All Students,Out of School Suspension,5052,378
+2018-19,School District,11,Polk,1120,,[All],No,Clayton,[Districtwide],All Students,All Students,Out of School Suspension,344,6
+2018-19,School District,11,Polk,1127,,[All],No,Clear Lake,[Districtwide],All Students,All Students,Out of School Suspension,597,8
+2018-19,School District,2,Rock,1134,,[All],No,Clinton Community,[Districtwide],All Students,All Students,Expulsion without Services Offered,1140,3
+2018-19,School District,2,Rock,1134,,[All],No,Clinton Community,[Districtwide],All Students,All Students,Out of School Suspension,1140,31
+2018-19,School District,8,Waupaca,1141,,[All],No,Clintonville,[Districtwide],All Students,All Students,Expulsion without Services Offered,1253,1
+2018-19,School District,8,Waupaca,1141,,[All],No,Clintonville,[Districtwide],All Students,All Students,Out of School Suspension,1253,118
+2018-19,School District,4,Buffalo,1155,,[All],No,Cochrane-Fountain City,[Districtwide],All Students,All Students,Out of School Suspension,620,13
+2018-19,School District,10,Clark,1162,,[All],No,Colby,[Districtwide],All Students,All Students,Out of School Suspension,912,20
+2018-19,School District,8,Marinette,1169,,[All],No,Coleman,[Districtwide],All Students,All Students,Out of School Suspension,729,7
+2018-19,School District,11,Dunn,1176,,[All],No,Colfax,[Districtwide],All Students,All Students,Out of School Suspension,800,46
+2018-19,School District,5,Columbia,1183,,[All],No,Columbus,[Districtwide],All Students,All Students,Out of School Suspension,1307,66
+2018-19,School District,10,Chippewa,1204,,[All],No,Cornell,[Districtwide],All Students,All Students,Out of School Suspension,406,27
+2018-19,School District,8,Forest,1218,,[All],No,Crandon,[Districtwide],All Students,All Students,Out of School Suspension,857,145
+2018-19,School District,8,Marinette,1232,,[All],No,Crivitz,[Districtwide],All Students,All Students,Out of School Suspension,791,25
+2018-19,School District,3,Grant,1246,,[All],No,Cuba City,[Districtwide],All Students,All Students,Out of School Suspension,679,9
+2018-19,School District,1,Milwaukee,1253,,[All],No,Cudahy,[Districtwide],All Students,All Students,Expulsion without Services Offered,2326,2
+2018-19,School District,1,Milwaukee,1253,,[All],No,Cudahy,[Districtwide],All Students,All Students,Out of School Suspension,2326,259
+2018-19,School District,11,Barron,1260,,[All],No,Cumberland,[Districtwide],All Students,All Students,Expulsion with Services Offered,998,3
+2018-19,School District,11,Barron,1260,,[All],No,Cumberland,[Districtwide],All Students,All Students,Out of School Suspension,998,7
+2018-19,School District,9,Marathon,4970,,[All],No,D C Everest Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,6004,1
+2018-19,School District,9,Marathon,4970,,[All],No,D C Everest Area,[Districtwide],All Students,All Students,Out of School Suspension,6004,375
+2018-19,School District,3,Lafayette,1295,,[All],No,Darlington Community,[Districtwide],All Students,All Students,Out of School Suspension,839,1
+2018-19,School District,2,Dane,1316,,[All],No,De Forest Area,[Districtwide],All Students,All Students,Out of School Suspension,3828,151
+2018-19,School District,7,Brown,1414,,[All],No,De Pere,[Districtwide],All Students,All Students,Expulsion with Services Offered,4518,1
+2018-19,School District,7,Brown,1414,,[All],No,De Pere,[Districtwide],All Students,All Students,Out of School Suspension,4518,162
+2018-19,School District,4,Vernon,1421,,[All],No,De Soto Area,[Districtwide],All Students,All Students,Out of School Suspension,496,17
+2018-19,School District,2,Dane,1309,,[All],No,Deerfield Community,[Districtwide],All Students,All Students,Expulsion with Services Offered,757,1
+2018-19,School District,2,Dane,1309,,[All],No,Deerfield Community,[Districtwide],All Students,All Students,Expulsion without Services Offered,757,2
+2018-19,School District,2,Dane,1309,,[All],No,Deerfield Community,[Districtwide],All Students,All Students,Out of School Suspension,757,20
+2018-19,School District,2,Walworth,1380,,[All],No,Delavan-Darien,[Districtwide],All Students,All Students,Expulsion with Services Offered,2020,6
+2018-19,School District,2,Walworth,1380,,[All],No,Delavan-Darien,[Districtwide],All Students,All Students,Expulsion without Services Offered,2020,9
+2018-19,School District,2,Walworth,1380,,[All],No,Delavan-Darien,[Districtwide],All Students,All Students,Out of School Suspension,2020,255
+2018-19,School District,7,Brown,1407,,[All],No,Denmark,[Districtwide],All Students,All Students,Out of School Suspension,1560,38
+2018-19,School District,6,Dodge,2744,,[All],No,Dodgeland,[Districtwide],All Students,All Students,Out of School Suspension,787,34
+2018-19,School District,3,Iowa,1428,,[All],No,Dodgeville,[Districtwide],All Students,All Students,Out of School Suspension,1227,98
+2018-19,School District,2,Racine,1449,,[All],No,Dover #1,[Districtwide],All Students,All Students,,92,0
+2018-19,School District,12,Bayfield,1491,,[All],No,Drummond Area,[Districtwide],All Students,All Students,Out of School Suspension,353,8
+2018-19,School District,11,Pepin,1499,,[All],No,Durand-Arkansaw,[Districtwide],All Students,All Students,Expulsion with Services Offered,959,1
+2018-19,School District,11,Pepin,1499,,[All],No,Durand-Arkansaw,[Districtwide],All Students,All Students,Expulsion without Services Offered,959,1
+2018-19,School District,11,Pepin,1499,,[All],No,Durand-Arkansaw,[Districtwide],All Students,All Students,Out of School Suspension,959,12
+2018-19,School District,2,Walworth,1540,,[All],No,East Troy Community,[Districtwide],All Students,All Students,Out of School Suspension,1646,56
+2018-19,School District,10,Eau Claire,1554,,[All],No,Eau Claire Area,[Districtwide],All Students,All Students,Out of School Suspension,11355,428
+2018-19,School District,9,Marathon,1561,,[All],No,Edgar,[Districtwide],All Students,All Students,Out of School Suspension,597,1
+2018-19,School District,2,Rock,1568,,[All],No,Edgerton,[Districtwide],All Students,All Students,Expulsion with Services Offered,1879,2
+2018-19,School District,2,Rock,1568,,[All],No,Edgerton,[Districtwide],All Students,All Students,Out of School Suspension,1879,94
+2018-19,School District,9,Langlade,1582,,[All],No,Elcho,[Districtwide],All Students,All Students,Out of School Suspension,273,30
+2018-19,School District,10,Trempealeau,1600,,[All],No,Eleva-Strum,[Districtwide],All Students,All Students,,632,0
+2018-19,School District,11,Dunn,1645,,[All],No,Elk Mound Area,[Districtwide],All Students,All Students,Out of School Suspension,1202,58
+2018-19,School District,7,Sheboygan,1631,,[All],No,Elkhart Lake-Glenbeulah,[Districtwide],All Students,All Students,Out of School Suspension,439,1
+2018-19,School District,2,Walworth,1638,,[All],No,Elkhorn Area,[Districtwide],All Students,All Students,Out of School Suspension,3469,94
+2018-19,School District,11,Pierce,1659,,[All],No,Ellsworth Community,[Districtwide],All Students,All Students,Out of School Suspension,1662,31
+2018-19,School District,1,Waukesha,714,,[All],No,Elmbrook,[Districtwide],All Students,All Students,Expulsion without Services Offered,7334,2
+2018-19,School District,1,Waukesha,714,,[All],No,Elmbrook,[Districtwide],All Students,All Students,Out of School Suspension,7334,86
+2018-19,School District,11,Pierce,1666,,[All],No,Elmwood,[Districtwide],All Students,All Students,,312,0
+2018-19,School District,6,Washington,1687,,[All],No,Erin,[Districtwide],All Students,All Students,,421,0
+2018-19,School District,2,Rock,1694,,[All],No,Evansville Community,[Districtwide],All Students,All Students,Out of School Suspension,1800,66
+2018-19,School District,10,Eau Claire,1729,,[All],No,Fall Creek,[Districtwide],All Students,All Students,Out of School Suspension,852,10
+2018-19,School District,5,Columbia,1736,,[All],No,Fall River,[Districtwide],All Students,All Students,Out of School Suspension,453,5
+2018-19,School District,3,Grant,1813,,[All],No,Fennimore Community,[Districtwide],All Students,All Students,Out of School Suspension,798,6
+2018-19,School District,10,Rusk,5757,,[All],No,Flambeau,[Districtwide],All Students,All Students,Out of School Suspension,578,25
+2018-19,School District,8,Florence,1855,,[All],No,Florence County,[Districtwide],All Students,All Students,Out of School Suspension,389,4
+2018-19,School District,6,Fond du Lac,1862,,[All],No,Fond du Lac,[Districtwide],All Students,All Students,Expulsion with Services Offered,7100,8
+2018-19,School District,6,Fond du Lac,1862,,[All],No,Fond du Lac,[Districtwide],All Students,All Students,Expulsion without Services Offered,7100,2
+2018-19,School District,6,Fond du Lac,1862,,[All],No,Fond du Lac,[Districtwide],All Students,All Students,Out of School Suspension,7100,188
+2018-19,School District,2,Walworth,1870,,[All],No,Fontana J8,[Districtwide],All Students,All Students,,214,0
+2018-19,School District,2,Jefferson,1883,,[All],No,Fort Atkinson,[Districtwide],All Students,All Students,Out of School Suspension,2843,16
+2018-19,School District,1,Milwaukee,1890,,[All],No,Fox Point J2,[Districtwide],All Students,All Students,Out of School Suspension,793,8
+2018-19,School District,1,Milwaukee,1900,,[All],No,Franklin Public,[Districtwide],All Students,All Students,Out of School Suspension,4599,121
+2018-19,School District,11,Polk,1939,,[All],No,Frederic,[Districtwide],All Students,All Students,Expulsion with Services Offered,438,3
+2018-19,School District,11,Polk,1939,,[All],No,Frederic,[Districtwide],All Students,All Students,Out of School Suspension,438,40
+2018-19,School District,6,Outagamie,1953,,[All],No,Freedom Area,[Districtwide],All Students,All Students,Out of School Suspension,1607,3
+2018-19,School District,4,Trempealeau,2009,,[All],No,Galesville-Ettrick-Trempealeau,[Districtwide],All Students,All Students,Out of School Suspension,1397,12
+2018-19,School District,2,Walworth,2044,,[All],No,Geneva J4,[Districtwide],All Students,All Students,Out of School Suspension,201,1
+2018-19,School District,2,Walworth,2051,,[All],No,Genoa City J2,[Districtwide],All Students,All Students,Out of School Suspension,526,19
+2018-19,School District,1,Washington,2058,,[All],No,Germantown,[Districtwide],All Students,All Students,Expulsion without Services Offered,3896,1
+2018-19,School District,1,Washington,2058,,[All],No,Germantown,[Districtwide],All Students,All Students,Out of School Suspension,3896,91
+2018-19,School District,7,Door,2114,,[All],No,Gibraltar Area,[Districtwide],All Students,All Students,Out of School Suspension,531,7
+2018-19,School District,8,Oconto,2128,,[All],No,Gillett,[Districtwide],All Students,All Students,Out of School Suspension,514,40
+2018-19,School District,10,Taylor,2135,,[All],No,Gilman,[Districtwide],All Students,All Students,Out of School Suspension,326,4
+2018-19,School District,10,Buffalo,2142,,[All],No,Gilmanton,[Districtwide],All Students,All Students,Out of School Suspension,150,4
+2018-19,School District,1,Milwaukee,2184,,[All],No,Glendale-River Hills,[Districtwide],All Students,All Students,Out of School Suspension,1065,40
+2018-19,School District,11,Saint Croix,2198,,[All],No,Glenwood City,[Districtwide],All Students,All Students,Out of School Suspension,687,10
+2018-19,School District,8,Marinette,2212,,[All],No,Goodman-Armstrong Creek,[Districtwide],All Students,All Students,Out of School Suspension,115,5
+2018-19,School District,1,Ozaukee,2217,,[All],No,Grafton,[Districtwide],All Students,All Students,Out of School Suspension,2071,64
+2018-19,School District,10,Clark,2226,,[All],No,Granton Area,[Districtwide],All Students,All Students,Out of School Suspension,233,6
+2018-19,School District,11,Burnett,2233,,[All],No,Grantsburg,[Districtwide],All Students,All Students,Out of School Suspension,1463,29
+2018-19,School District,7,Brown,2289,,[All],No,Green Bay Area Public,[Districtwide],All Students,All Students,Expulsion with Services Offered,20391,16
+2018-19,School District,7,Brown,2289,,[All],No,Green Bay Area Public,[Districtwide],All Students,All Students,Out of School Suspension,20391,2833
+2018-19,School District,6,Green Lake,2310,,[All],No,Green Lake,[Districtwide],All Students,All Students,Out of School Suspension,303,1
+2018-19,School District,1,Milwaukee,2296,,[All],No,Greendale,[Districtwide],All Students,All Students,Out of School Suspension,2698,99
+2018-19,School District,1,Milwaukee,2303,,[All],No,Greenfield,[Districtwide],All Students,All Students,Expulsion with Services Offered,3527,1
+2018-19,School District,1,Milwaukee,2303,,[All],No,Greenfield,[Districtwide],All Students,All Students,Expulsion without Services Offered,3527,1
+2018-19,School District,1,Milwaukee,2303,,[All],No,Greenfield,[Districtwide],All Students,All Students,Out of School Suspension,3527,237
+2018-19,School District,10,Clark,2394,,[All],No,Greenwood,[Districtwide],All Students,All Students,Out of School Suspension,358,3
+2018-19,School District,8,Shawano,2415,,[All],No,Gresham,[Districtwide],All Students,All Students,Out of School Suspension,292,29
+2018-19,School District,1,Waukesha,2420,,[All],No,Hamilton,[Districtwide],All Students,All Students,Out of School Suspension,4859,94
+2018-19,School District,6,Washington,2443,,[All],No,Hartford J1,[Districtwide],All Students,All Students,Out of School Suspension,1706,95
+2018-19,School District,6,Washington,2436,,[All],No,Hartford UHS,[Districtwide],All Students,All Students,Expulsion with Services Offered,1344,1
+2018-19,School District,6,Washington,2436,,[All],No,Hartford UHS,[Districtwide],All Students,All Students,Out of School Suspension,1344,64
+2018-19,School District,1,Waukesha,2460,,[All],No,Hartland-Lakeside J3,[Districtwide],All Students,All Students,Out of School Suspension,1187,10
+2018-19,School District,12,Sawyer,2478,,[All],No,Hayward Community,[Districtwide],All Students,All Students,Out of School Suspension,2063,133
+2018-19,School District,6,Dodge,2525,,[All],No,Herman-Neosho-Rubicon,[Districtwide],All Students,All Students,Out of School Suspension,318,2
+2018-19,School District,3,Iowa,2527,,[All],No,Highland,[Districtwide],All Students,All Students,Out of School Suspension,297,5
+2018-19,School District,7,Calumet,2534,,[All],No,Hilbert,[Districtwide],All Students,All Students,Out of School Suspension,457,10
+2018-19,School District,4,Vernon,2541,,[All],No,Hillsboro,[Districtwide],All Students,All Students,Out of School Suspension,540,1
+2018-19,School District,4,La Crosse,2562,,[All],No,Holmen,[Districtwide],All Students,All Students,Out of School Suspension,3994,67
+2018-19,School District,6,Washington,2570,,[All],No,Holy Hill Area,[Districtwide],All Students,All Students,Out of School Suspension,545,5
+2018-19,School District,6,Dodge,2576,,[All],No,Horicon,[Districtwide],All Students,All Students,Out of School Suspension,681,22
+2018-19,School District,6,Outagamie,2583,,[All],No,Hortonville Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,4011,4
+2018-19,School District,6,Outagamie,2583,,[All],No,Hortonville Area,[Districtwide],All Students,All Students,Out of School Suspension,4011,119
+2018-19,School District,7,Sheboygan,2605,,[All],No,Howards Grove,[Districtwide],All Students,All Students,Out of School Suspension,907,20
+2018-19,School District,7,Brown,2604,,[All],No,Howard-Suamico,[Districtwide],All Students,All Students,Expulsion with Services Offered,6103,3
+2018-19,School District,7,Brown,2604,,[All],No,Howard-Suamico,[Districtwide],All Students,All Students,Expulsion without Services Offered,6103,2
+2018-19,School District,7,Brown,2604,,[All],No,Howard-Suamico,[Districtwide],All Students,All Students,Out of School Suspension,6103,158
+2018-19,School District,11,Saint Croix,2611,,[All],No,Hudson,[Districtwide],All Students,All Students,Out of School Suspension,5614,147
+2018-19,School District,12,Iron,2618,,[All],No,Hurley,[Districtwide],All Students,All Students,Out of School Suspension,563,47
+2018-19,School District,6,Dodge,2625,,[All],No,Hustisford,[Districtwide],All Students,All Students,Out of School Suspension,438,17
+2018-19,School District,4,Trempealeau,2632,,[All],No,Independence,[Districtwide],All Students,All Students,,382,0
+2018-19,School District,5,Waupaca,2639,,[All],No,Iola-Scandinavia,[Districtwide],All Students,All Students,Out of School Suspension,665,3
+2018-19,School District,3,Iowa,2646,,[All],No,Iowa-Grant,[Districtwide],All Students,All Students,Out of School Suspension,732,10
+2018-19,School District,3,Richland,2660,,[All],No,Ithaca,[Districtwide],All Students,All Students,Out of School Suspension,446,31
+2018-19,School District,2,Rock,2695,,[All],No,Janesville,[Districtwide],All Students,All Students,Expulsion with Services Offered,10069,2
+2018-19,School District,2,Rock,2695,,[All],No,Janesville,[Districtwide],All Students,All Students,Expulsion without Services Offered,10069,3
+2018-19,School District,2,Rock,2695,,[All],No,Janesville,[Districtwide],All Students,All Students,Out of School Suspension,10069,967
+2018-19,School District,2,Jefferson,2702,,[All],No,Jefferson,[Districtwide],All Students,All Students,Out of School Suspension,1874,108
+2018-19,School District,2,Jefferson,2730,,[All],No,Johnson Creek,[Districtwide],All Students,All Students,Out of School Suspension,655,21
+2018-19,School District,2,Green,2737,,[All],No,Juda,[Districtwide],All Students,All Students,Out of School Suspension,305,2
+2018-19,School District,6,Outagamie,2758,,[All],No,Kaukauna Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,3935,1
+2018-19,School District,6,Outagamie,2758,,[All],No,Kaukauna Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,3935,2
+2018-19,School District,6,Outagamie,2758,,[All],No,Kaukauna Area,[Districtwide],All Students,All Students,Out of School Suspension,3935,245
+2018-19,School District,1,Kenosha,2793,,[All],No,Kenosha,[Districtwide],All Students,All Students,Expulsion with Services Offered,21233,8
+2018-19,School District,1,Kenosha,2793,,[All],No,Kenosha,[Districtwide],All Students,All Students,Expulsion without Services Offered,21233,1
+2018-19,School District,1,Kenosha,2793,,[All],No,Kenosha,[Districtwide],All Students,All Students,Out of School Suspension,21233,3949
+2018-19,School District,1,Waukesha,1376,,[All],No,Kettle Moraine,[Districtwide],All Students,All Students,Out of School Suspension,3868,78
+2018-19,School District,6,Washington,2800,,[All],No,Kewaskum,[Districtwide],All Students,All Students,Out of School Suspension,1814,64
+2018-19,School District,7,Kewaunee,2814,,[All],No,Kewaunee,[Districtwide],All Students,All Students,Out of School Suspension,953,61
+2018-19,School District,3,Vernon,5960,,[All],No,Kickapoo Area,[Districtwide],All Students,All Students,Out of School Suspension,520,21
+2018-19,School District,7,Manitowoc,2828,,[All],No,Kiel Area,[Districtwide],All Students,All Students,Out of School Suspension,1216,26
+2018-19,School District,6,Outagamie,2835,,[All],No,Kimberly Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,5190,4
+2018-19,School District,6,Outagamie,2835,,[All],No,Kimberly Area,[Districtwide],All Students,All Students,Out of School Suspension,5190,117
+2018-19,School District,7,Sheboygan,2842,,[All],No,Kohler,[Districtwide],All Students,All Students,Out of School Suspension,703,13
+2018-19,School District,4,La Crosse,2849,,[All],No,La Crosse,[Districtwide],All Students,All Students,Out of School Suspension,6637,805
+2018-19,School District,4,Vernon,2863,,[All],No,La Farge,[Districtwide],All Students,All Students,Out of School Suspension,218,6
+2018-19,School District,9,Vilas,1848,,[All],No,Lac du Flambeau #1,[Districtwide],All Students,All Students,Out of School Suspension,510,51
+2018-19,School District,10,Rusk,2856,,[All],No,Ladysmith,[Districtwide],All Students,All Students,Out of School Suspension,806,24
+2018-19,School District,1,Waukesha,3862,,[All],No,Lake Country,[Districtwide],All Students,All Students,Out of School Suspension,499,5
+2018-19,School District,2,Walworth,2885,,[All],No,Lake Geneva J1,[Districtwide],All Students,All Students,Expulsion with Services Offered,1918,2
+2018-19,School District,2,Walworth,2885,,[All],No,Lake Geneva J1,[Districtwide],All Students,All Students,Expulsion without Services Offered,1918,2
+2018-19,School District,2,Walworth,2885,,[All],No,Lake Geneva J1,[Districtwide],All Students,All Students,Out of School Suspension,1918,33
+2018-19,School District,2,Walworth,2884,,[All],No,Lake Geneva-Genoa City UHS,[Districtwide],All Students,All Students,Expulsion with Services Offered,1432,3
+2018-19,School District,2,Walworth,2884,,[All],No,Lake Geneva-Genoa City UHS,[Districtwide],All Students,All Students,Out of School Suspension,1432,100
+2018-19,School District,10,Chippewa,2891,,[All],No,Lake Holcombe,[Districtwide],All Students,All Students,Out of School Suspension,316,8
+2018-19,School District,2,Jefferson,2898,,[All],No,Lake Mills Area,[Districtwide],All Students,All Students,Out of School Suspension,1588,19
+2018-19,School District,9,Oneida,3647,,[All],No,Lakeland UHS,[Districtwide],All Students,All Students,Expulsion with Services Offered,709,1
+2018-19,School District,9,Oneida,3647,,[All],No,Lakeland UHS,[Districtwide],All Students,All Students,Expulsion without Services Offered,709,2
+2018-19,School District,9,Oneida,3647,,[All],No,Lakeland UHS,[Districtwide],All Students,All Students,Out of School Suspension,709,139
+2018-19,School District,3,Grant,2912,,[All],No,Lancaster Community,[Districtwide],All Students,All Students,Expulsion with Services Offered,963,2
+2018-19,School District,3,Grant,2912,,[All],No,Lancaster Community,[Districtwide],All Students,All Students,Out of School Suspension,963,44
+2018-19,School District,8,Forest,2940,,[All],No,Laona,[Districtwide],All Students,All Students,Out of School Suspension,261,3
+2018-19,School District,8,Oconto,2961,,[All],No,Lena,[Districtwide],All Students,All Students,Out of School Suspension,388,1
+2018-19,School District,2,Walworth,3087,,[All],No,Linn J4,[Districtwide],All Students,All Students,,119,0
+2018-19,School District,2,Walworth,3094,,[All],No,Linn J6,[Districtwide],All Students,All Students,,148,0
+2018-19,School District,6,Outagamie,3129,,[All],No,Little Chute Area,[Districtwide],All Students,All Students,Out of School Suspension,1602,63
+2018-19,School District,5,Columbia,3150,,[All],No,Lodi,[Districtwide],All Students,All Students,Out of School Suspension,1493,40
+2018-19,School District,6,Dodge,3171,,[All],No,Lomira,[Districtwide],All Students,All Students,Out of School Suspension,1080,21
+2018-19,School District,10,Clark,3206,,[All],No,Loyal,[Districtwide],All Students,All Students,,502,0
+2018-19,School District,11,Polk,3213,,[All],No,Luck,[Districtwide],All Students,All Students,Out of School Suspension,438,23
+2018-19,School District,7,Kewaunee,3220,,[All],No,Luxemburg-Casco,[Districtwide],All Students,All Students,Out of School Suspension,1910,30
+2018-19,School District,2,Dane,3269,,[All],No,Madison Metropolitan,[Districtwide],All Students,All Students,Out of School Suspension,26917,2547
+2018-19,School District,6,Waupaca,3276,,[All],No,Manawa,[Districtwide],All Students,All Students,Expulsion without Services Offered,637,3
+2018-19,School District,6,Waupaca,3276,,[All],No,Manawa,[Districtwide],All Students,All Students,Out of School Suspension,637,30
+2018-19,School District,7,Manitowoc,3290,,[All],No,Manitowoc,[Districtwide],All Students,All Students,Out of School Suspension,4961,319
+2018-19,School District,12,Douglas,3297,,[All],No,Maple,[Districtwide],All Students,All Students,Out of School Suspension,1341,63
+2018-19,School District,1,Milwaukee,1897,,[All],No,Maple Dale-Indian Hill,[Districtwide],All Students,All Students,Out of School Suspension,471,10
+2018-19,School District,9,Marathon,3304,,[All],No,Marathon City,[Districtwide],All Students,All Students,Out of School Suspension,731,18
+2018-19,School District,8,Marinette,3311,,[All],No,Marinette,[Districtwide],All Students,All Students,Out of School Suspension,2033,102
+2018-19,School District,8,Waupaca,3318,,[All],No,Marion,[Districtwide],All Students,All Students,Out of School Suspension,438,17
+2018-19,School District,6,Green Lake,3325,,[All],No,Markesan,[Districtwide],All Students,All Students,Out of School Suspension,814,21
+2018-19,School District,2,Dane,3332,,[All],No,Marshall,[Districtwide],All Students,All Students,Out of School Suspension,1030,61
+2018-19,School District,5,Wood,3339,,[All],No,Marshfield Unified,[Districtwide],All Students,All Students,Expulsion with Services Offered,4068,1
+2018-19,School District,5,Wood,3339,,[All],No,Marshfield Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,4068,1
+2018-19,School District,5,Wood,3339,,[All],No,Marshfield Unified,[Districtwide],All Students,All Students,Out of School Suspension,4068,144
+2018-19,School District,5,Juneau,3360,,[All],No,Mauston,[Districtwide],All Students,All Students,Out of School Suspension,1462,73
+2018-19,School District,6,Dodge,3367,,[All],No,Mayville,[Districtwide],All Students,All Students,Out of School Suspension,1100,33
+2018-19,School District,2,Dane,3381,,[All],No,McFarland,[Districtwide],All Students,All Students,Expulsion with Services Offered,4447,1
+2018-19,School District,2,Dane,3381,,[All],No,McFarland,[Districtwide],All Students,All Students,Expulsion without Services Offered,4447,3
+2018-19,School District,2,Dane,3381,,[All],No,McFarland,[Districtwide],All Students,All Students,Out of School Suspension,4447,102
+2018-19,School District,10,Taylor,3409,,[All],No,Medford Area Public,[Districtwide],All Students,All Students,Out of School Suspension,2755,46
+2018-19,School District,12,Ashland,3427,,[All],No,Mellen,[Districtwide],All Students,All Students,Out of School Suspension,271,2
+2018-19,School District,4,Jackson,3428,,[All],No,Melrose-Mindoro,[Districtwide],All Students,All Students,Out of School Suspension,768,28
+2018-19,School District,6,Winnebago,3430,,[All],No,Menasha Joint,[Districtwide],All Students,All Students,Expulsion without Services Offered,3432,4
+2018-19,School District,6,Winnebago,3430,,[All],No,Menasha Joint,[Districtwide],All Students,All Students,Out of School Suspension,3432,480
+2018-19,School District,8,Menominee,3434,,[All],No,Menominee Indian,[Districtwide],All Students,All Students,Out of School Suspension,921,105
+2018-19,School District,1,Waukesha,3437,,[All],No,Menomonee Falls,[Districtwide],All Students,All Students,Out of School Suspension,4002,106
+2018-19,School District,11,Dunn,3444,,[All],No,Menomonie Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,3426,1
+2018-19,School District,11,Dunn,3444,,[All],No,Menomonie Area,[Districtwide],All Students,All Students,Out of School Suspension,3426,234
+2018-19,School District,1,Ozaukee,3479,,[All],No,Mequon-Thiensville,[Districtwide],All Students,All Students,Out of School Suspension,3771,130
+2018-19,School District,12,Iron,3484,,[All],No,Mercer,[Districtwide],All Students,All Students,,145,0
+2018-19,School District,9,Lincoln,3500,,[All],No,Merrill Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,3291,5
+2018-19,School District,9,Lincoln,3500,,[All],No,Merrill Area,[Districtwide],All Students,All Students,Out of School Suspension,3291,254
+2018-19,School District,1,Waukesha,3528,,[All],No,Merton Community,[Districtwide],All Students,All Students,Out of School Suspension,844,1
+2018-19,School District,2,Dane,3549,,[All],No,Middleton-Cross Plains Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,7450,1
+2018-19,School District,2,Dane,3549,,[All],No,Middleton-Cross Plains Area,[Districtwide],All Students,All Students,Out of School Suspension,7450,143
+2018-19,School District,2,Rock,3612,,[All],No,Milton,[Districtwide],All Students,All Students,Expulsion without Services Offered,3487,2
+2018-19,School District,2,Rock,3612,,[All],No,Milton,[Districtwide],All Students,All Students,Out of School Suspension,3487,157
+2018-19,School District,1,Milwaukee,3619,,[All],No,Milwaukee,[Districtwide],All Students,All Students,Expulsion with Services Offered,75431,187
+2018-19,School District,1,Milwaukee,3619,,[All],No,Milwaukee,[Districtwide],All Students,All Students,Out of School Suspension,75431,22961
+2018-19,School District,3,Iowa,3633,,[All],No,Mineral Point Unified,[Districtwide],All Students,All Students,Out of School Suspension,763,2
+2018-19,School District,9,Oneida,3640,,[All],No,Minocqua J1,[Districtwide],All Students,All Students,Out of School Suspension,613,28
+2018-19,School District,7,Manitowoc,3661,,[All],No,Mishicot,[Districtwide],All Students,All Students,Expulsion without Services Offered,859,1
+2018-19,School District,7,Manitowoc,3661,,[All],No,Mishicot,[Districtwide],All Students,All Students,Out of School Suspension,859,34
+2018-19,School District,10,Buffalo,3668,,[All],No,Mondovi,[Districtwide],All Students,All Students,Expulsion with Services Offered,991,2
+2018-19,School District,10,Buffalo,3668,,[All],No,Mondovi,[Districtwide],All Students,All Students,Out of School Suspension,991,39
+2018-19,School District,2,Dane,3675,,[All],No,Monona Grove,[Districtwide],All Students,All Students,Out of School Suspension,3454,143
+2018-19,School District,2,Green,3682,,[All],No,Monroe,[Districtwide],All Students,All Students,Out of School Suspension,2353,195
+2018-19,School District,5,Marquette,3689,,[All],No,Montello,[Districtwide],All Students,All Students,Out of School Suspension,668,1
+2018-19,School District,2,Green,3696,,[All],No,Monticello,[Districtwide],All Students,All Students,Expulsion without Services Offered,341,1
+2018-19,School District,2,Green,3696,,[All],No,Monticello,[Districtwide],All Students,All Students,Out of School Suspension,341,5
+2018-19,School District,9,Marathon,3787,,[All],No,Mosinee,[Districtwide],All Students,All Students,Out of School Suspension,2016,56
+2018-19,School District,2,Dane,3794,,[All],No,Mount Horeb Area,[Districtwide],All Students,All Students,Out of School Suspension,2522,60
+2018-19,School District,1,Waukesha,3822,,[All],No,Mukwonago,[Districtwide],All Students,All Students,Expulsion with Services Offered,5040,2
+2018-19,School District,1,Waukesha,3822,,[All],No,Mukwonago,[Districtwide],All Students,All Students,Expulsion without Services Offered,5040,1
+2018-19,School District,1,Waukesha,3822,,[All],No,Mukwonago,[Districtwide],All Students,All Students,Out of School Suspension,5040,199
+2018-19,School District,1,Waukesha,3857,,[All],No,Muskego-Norway,[Districtwide],All Students,All Students,Out of School Suspension,4850,107
+2018-19,School District,5,Juneau,3871,,[All],No,Necedah Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,699,2
+2018-19,School District,5,Juneau,3871,,[All],No,Necedah Area,[Districtwide],All Students,All Students,Out of School Suspension,699,13
+2018-19,School District,6,Winnebago,3892,,[All],No,Neenah Joint,[Districtwide],All Students,All Students,Expulsion with Services Offered,6714,1
+2018-19,School District,6,Winnebago,3892,,[All],No,Neenah Joint,[Districtwide],All Students,All Students,Expulsion without Services Offered,6714,4
+2018-19,School District,6,Winnebago,3892,,[All],No,Neenah Joint,[Districtwide],All Students,All Students,Out of School Suspension,6714,497
+2018-19,School District,10,Clark,3899,,[All],No,Neillsville,[Districtwide],All Students,All Students,Expulsion without Services Offered,927,4
+2018-19,School District,10,Clark,3899,,[All],No,Neillsville,[Districtwide],All Students,All Students,Out of School Suspension,927,63
+2018-19,School District,5,Wood,3906,,[All],No,Nekoosa,[Districtwide],All Students,All Students,Out of School Suspension,1183,12
+2018-19,School District,10,Chippewa,3920,,[All],No,New Auburn,[Districtwide],All Students,All Students,Expulsion without Services Offered,316,3
+2018-19,School District,10,Chippewa,3920,,[All],No,New Auburn,[Districtwide],All Students,All Students,Out of School Suspension,316,22
+2018-19,School District,1,Waukesha,3925,,[All],No,New Berlin,[Districtwide],All Students,All Students,Out of School Suspension,4348,111
+2018-19,School District,2,Green,3934,,[All],No,New Glarus,[Districtwide],All Students,All Students,Expulsion without Services Offered,989,1
+2018-19,School District,2,Green,3934,,[All],No,New Glarus,[Districtwide],All Students,All Students,Out of School Suspension,989,28
+2018-19,School District,7,Calumet,3941,,[All],No,New Holstein,[Districtwide],All Students,All Students,Out of School Suspension,1063,8
+2018-19,School District,5,Juneau,3948,,[All],No,New Lisbon,[Districtwide],All Students,All Students,Expulsion without Services Offered,660,1
+2018-19,School District,5,Juneau,3948,,[All],No,New Lisbon,[Districtwide],All Students,All Students,Out of School Suspension,660,18
+2018-19,School District,6,Waupaca,3955,,[All],No,New London,[Districtwide],All Students,All Students,Expulsion with Services Offered,2284,1
+2018-19,School District,6,Waupaca,3955,,[All],No,New London,[Districtwide],All Students,All Students,Expulsion without Services Offered,2284,3
+2018-19,School District,6,Waupaca,3955,,[All],No,New London,[Districtwide],All Students,All Students,Out of School Suspension,2284,94
+2018-19,School District,11,Saint Croix,3962,,[All],No,New Richmond,[Districtwide],All Students,All Students,Expulsion with Services Offered,3441,2
+2018-19,School District,11,Saint Croix,3962,,[All],No,New Richmond,[Districtwide],All Students,All Students,Expulsion without Services Offered,3441,1
+2018-19,School District,11,Saint Croix,3962,,[All],No,New Richmond,[Districtwide],All Students,All Students,Out of School Suspension,3441,179
+2018-19,School District,8,Marinette,3969,,[All],No,Niagara,[Districtwide],All Students,All Students,Out of School Suspension,431,20
+2018-19,School District,1,Milwaukee,2177,,[All],No,Nicolet UHS,[Districtwide],All Students,All Students,Out of School Suspension,1087,34
+2018-19,School District,1,Waukesha,3976,,[All],No,Norris,[Districtwide],All Students,All Students,,31,0
+2018-19,School District,2,Racine,4690,,[All],No,North Cape,[Districtwide],All Students,All Students,Out of School Suspension,198,4
+2018-19,School District,3,Crawford,2016,,[All],No,North Crawford,[Districtwide],All Students,All Students,Out of School Suspension,456,3
+2018-19,School District,6,Fond du Lac,3983,,[All],No,North Fond du Lac,[Districtwide],All Students,All Students,Out of School Suspension,1446,27
+2018-19,School District,1,Waukesha,3514,,[All],No,North Lake,[Districtwide],All Students,All Students,Out of School Suspension,335,3
+2018-19,School District,9,Vilas,616,,[All],No,North Lakeland,[Districtwide],All Students,All Students,Out of School Suspension,152,3
+2018-19,School District,1,Ozaukee,1945,,[All],No,Northern Ozaukee,[Districtwide],All Students,All Students,,1030,0
+2018-19,School District,9,Vilas,1526,,[All],No,Northland Pines,[Districtwide],All Students,All Students,Expulsion with Services Offered,1306,3
+2018-19,School District,9,Vilas,1526,,[All],No,Northland Pines,[Districtwide],All Students,All Students,Expulsion without Services Offered,1306,1
+2018-19,School District,9,Vilas,1526,,[All],No,Northland Pines,[Districtwide],All Students,All Students,Out of School Suspension,1306,4
+2018-19,School District,12,Washburn,3654,,[All],No,Northwood,[Districtwide],All Students,All Students,Out of School Suspension,325,14
+2018-19,School District,4,Monroe,3990,,[All],No,Norwalk-Ontario-Wilton,[Districtwide],All Students,All Students,Out of School Suspension,658,14
+2018-19,School District,2,Racine,4011,,[All],No,Norway J7,[Districtwide],All Students,All Students,,105,0
+2018-19,School District,1,Milwaukee,4018,,[All],No,Oak Creek-Franklin Joint,[Districtwide],All Students,All Students,Expulsion without Services Offered,6604,5
+2018-19,School District,1,Milwaukee,4018,,[All],No,Oak Creek-Franklin Joint,[Districtwide],All Students,All Students,Out of School Suspension,6604,461
+2018-19,School District,6,Fond du Lac,4025,,[All],No,Oakfield,[Districtwide],All Students,All Students,Out of School Suspension,548,21
+2018-19,School District,1,Waukesha,4060,,[All],No,Oconomowoc Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,5272,3
+2018-19,School District,1,Waukesha,4060,,[All],No,Oconomowoc Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,5272,2
+2018-19,School District,1,Waukesha,4060,,[All],No,Oconomowoc Area,[Districtwide],All Students,All Students,Out of School Suspension,5272,48
+2018-19,School District,8,Oconto,4074,,[All],No,Oconto Falls Public,[Districtwide],All Students,All Students,Out of School Suspension,1691,14
+2018-19,School District,8,Oconto,4067,,[All],No,Oconto Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,1006,1
+2018-19,School District,8,Oconto,4067,,[All],No,Oconto Unified,[Districtwide],All Students,All Students,Out of School Suspension,1006,69
+2018-19,School District,6,Winnebago,4088,,[All],No,Omro,[Districtwide],All Students,All Students,Expulsion with Services Offered,1154,1
+2018-19,School District,6,Winnebago,4088,,[All],No,Omro,[Districtwide],All Students,All Students,Expulsion without Services Offered,1154,1
+2018-19,School District,6,Winnebago,4088,,[All],No,Omro,[Districtwide],All Students,All Students,Out of School Suspension,1154,52
+2018-19,School District,4,La Crosse,4095,,[All],No,Onalaska,[Districtwide],All Students,All Students,Out of School Suspension,3133,105
+2018-19,School District,7,Sheboygan,4137,,[All],No,Oostburg,[Districtwide],All Students,All Students,Out of School Suspension,995,4
+2018-19,School District,2,Dane,4144,,[All],No,Oregon,[Districtwide],All Students,All Students,Expulsion with Services Offered,4091,3
+2018-19,School District,2,Dane,4144,,[All],No,Oregon,[Districtwide],All Students,All Students,Expulsion without Services Offered,4091,2
+2018-19,School District,2,Dane,4144,,[All],No,Oregon,[Districtwide],All Students,All Students,Out of School Suspension,4091,243
+2018-19,School District,11,Polk,4165,,[All],No,Osceola,[Districtwide],All Students,All Students,Expulsion with Services Offered,1692,3
+2018-19,School District,11,Polk,4165,,[All],No,Osceola,[Districtwide],All Students,All Students,Expulsion without Services Offered,1692,3
+2018-19,School District,11,Polk,4165,,[All],No,Osceola,[Districtwide],All Students,All Students,Out of School Suspension,1692,32
+2018-19,School District,6,Winnebago,4179,,[All],No,Oshkosh Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,9911,4
+2018-19,School District,6,Winnebago,4179,,[All],No,Oshkosh Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,9911,3
+2018-19,School District,6,Winnebago,4179,,[All],No,Oshkosh Area,[Districtwide],All Students,All Students,Out of School Suspension,9911,1622
+2018-19,School District,10,Trempealeau,4186,,[All],No,Osseo-Fairchild,[Districtwide],All Students,All Students,Out of School Suspension,817,101
+2018-19,School District,10,Clark,4207,,[All],No,Owen-Withee,[Districtwide],All Students,All Students,Out of School Suspension,485,14
+2018-19,School District,2,Jefferson,4221,,[All],No,Palmyra-Eagle Area,[Districtwide],All Students,All Students,Out of School Suspension,769,21
+2018-19,School District,5,Columbia,4228,,[All],No,Pardeeville Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,812,1
+2018-19,School District,5,Columbia,4228,,[All],No,Pardeeville Area,[Districtwide],All Students,All Students,Out of School Suspension,812,14
+2018-19,School District,2,Kenosha,4235,,[All],No,Paris J1,[Districtwide],All Students,All Students,,277,0
+2018-19,School District,2,Rock,4151,,[All],No,Parkview,[Districtwide],All Students,All Students,Out of School Suspension,803,19
+2018-19,School District,3,Lafayette,490,,[All],No,Pecatonica Area,[Districtwide],All Students,All Students,Out of School Suspension,400,6
+2018-19,School District,11,Pepin,4270,,[All],No,Pepin Area,[Districtwide],All Students,All Students,Out of School Suspension,225,1
+2018-19,School District,8,Marinette,4305,,[All],No,Peshtigo,[Districtwide],All Students,All Students,Out of School Suspension,1188,58
+2018-19,School District,1,Waukesha,4312,,[All],No,Pewaukee,[Districtwide],All Students,All Students,Expulsion with Services Offered,2995,1
+2018-19,School District,1,Waukesha,4312,,[All],No,Pewaukee,[Districtwide],All Students,All Students,Out of School Suspension,2995,76
+2018-19,School District,9,Vilas,4330,,[All],No,Phelps,[Districtwide],All Students,All Students,Out of School Suspension,132,9
+2018-19,School District,12,Price,4347,,[All],No,Phillips,[Districtwide],All Students,All Students,Out of School Suspension,759,14
+2018-19,School District,5,Wood,4368,,[All],No,Pittsville,[Districtwide],All Students,All Students,Out of School Suspension,575,9
+2018-19,School District,3,Grant,4389,,[All],No,Platteville,[Districtwide],All Students,All Students,Expulsion without Services Offered,1519,1
+2018-19,School District,3,Grant,4389,,[All],No,Platteville,[Districtwide],All Students,All Students,Out of School Suspension,1519,87
+2018-19,School District,11,Pierce,4459,,[All],No,Plum City,[Districtwide],All Students,All Students,Out of School Suspension,276,3
+2018-19,School District,7,Sheboygan,4473,,[All],No,Plymouth Joint,[Districtwide],All Students,All Students,Expulsion without Services Offered,2179,4
+2018-19,School District,7,Sheboygan,4473,,[All],No,Plymouth Joint,[Districtwide],All Students,All Students,Out of School Suspension,2179,173
+2018-19,School District,5,Wood,4508,,[All],No,Port Edwards,[Districtwide],All Students,All Students,Out of School Suspension,448,9
+2018-19,School District,1,Ozaukee,4515,,[All],No,Port Washington-Saukville,[Districtwide],All Students,All Students,Out of School Suspension,2616,143
+2018-19,School District,5,Columbia,4501,,[All],No,Portage Community,[Districtwide],All Students,All Students,Out of School Suspension,2316,188
+2018-19,School District,3,Grant,4529,,[All],No,Potosi,[Districtwide],All Students,All Students,Out of School Suspension,333,5
+2018-19,School District,5,Columbia,4536,,[All],No,Poynette,[Districtwide],All Students,All Students,Expulsion without Services Offered,1075,2
+2018-19,School District,5,Columbia,4536,,[All],No,Poynette,[Districtwide],All Students,All Students,Out of School Suspension,1075,31
+2018-19,School District,3,Crawford,4543,,[All],No,Prairie du Chien Area,[Districtwide],All Students,All Students,Out of School Suspension,1163,21
+2018-19,School District,11,Barron,4557,,[All],No,Prairie Farm Public,[Districtwide],All Students,All Students,Out of School Suspension,386,5
+2018-19,School District,9,Price,4571,,[All],No,Prentice,[Districtwide],All Students,All Students,Out of School Suspension,340,5
+2018-19,School District,11,Pierce,4578,,[All],No,Prescott,[Districtwide],All Students,All Students,Out of School Suspension,1320,37
+2018-19,School District,5,Green Lake,4606,,[All],No,Princeton,[Districtwide],All Students,All Students,Expulsion without Services Offered,336,2
+2018-19,School District,5,Green Lake,4606,,[All],No,Princeton,[Districtwide],All Students,All Students,Out of School Suspension,336,27
+2018-19,School District,7,Brown,4613,,[All],No,Pulaski Community,[Districtwide],All Students,All Students,Expulsion without Services Offered,3777,2
+2018-19,School District,7,Brown,4613,,[All],No,Pulaski Community,[Districtwide],All Students,All Students,Out of School Suspension,3777,78
+2018-19,School District,1,Racine,4620,,[All],No,Racine Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,17862,136
+2018-19,School District,1,Racine,4620,,[All],No,Racine Unified,[Districtwide],All Students,All Students,Out of School Suspension,17862,6020
+2018-19,School District,2,Kenosha,4627,,[All],No,Randall J1,[Districtwide],All Students,All Students,Out of School Suspension,732,23
+2018-19,School District,5,Dodge,4634,,[All],No,Randolph,[Districtwide],All Students,All Students,Out of School Suspension,553,9
+2018-19,School District,7,Sheboygan,4641,,[All],No,Random Lake,[Districtwide],All Students,All Students,Out of School Suspension,741,17
+2018-19,School District,2,Racine,4686,,[All],No,Raymond #14,[Districtwide],All Students,All Students,,412,0
+2018-19,School District,5,Sauk,4753,,[All],No,Reedsburg,[Districtwide],All Students,All Students,Out of School Suspension,2862,59
+2018-19,School District,7,Manitowoc,4760,,[All],No,Reedsville,[Districtwide],All Students,All Students,Out of School Suspension,577,5
+2018-19,School District,9,Oneida,4781,,[All],No,Rhinelander,[Districtwide],All Students,All Students,Out of School Suspension,2350,200
+2018-19,School District,9,Taylor,4795,,[All],No,Rib Lake,[Districtwide],All Students,All Students,Out of School Suspension,473,2
+2018-19,School District,11,Barron,4802,,[All],No,Rice Lake Area,[Districtwide],All Students,All Students,Out of School Suspension,2276,88
+2018-19,School District,3,Richland,4851,,[All],No,Richland,[Districtwide],All Students,All Students,Expulsion without Services Offered,1299,14
+2018-19,School District,3,Richland,4851,,[All],No,Richland,[Districtwide],All Students,All Students,Out of School Suspension,1299,93
+2018-19,School District,1,Waukesha,3122,,[All],No,Richmond,[Districtwide],All Students,All Students,Out of School Suspension,412,4
+2018-19,School District,5,Columbia,4865,,[All],No,Rio Community,[Districtwide],All Students,All Students,Out of School Suspension,407,2
+2018-19,School District,6,Fond du Lac,4872,,[All],No,Ripon Area,[Districtwide],All Students,All Students,Out of School Suspension,1600,24
+2018-19,School District,11,Pierce,4893,,[All],No,River Falls,[Districtwide],All Students,All Students,Expulsion with Services Offered,3455,1
+2018-19,School District,11,Pierce,4893,,[All],No,River Falls,[Districtwide],All Students,All Students,Expulsion without Services Offered,3455,6
+2018-19,School District,11,Pierce,4893,,[All],No,River Falls,[Districtwide],All Students,All Students,Out of School Suspension,3455,121
+2018-19,School District,3,Grant,4904,,[All],No,River Ridge,[Districtwide],All Students,All Students,Expulsion without Services Offered,542,2
+2018-19,School District,3,Grant,4904,,[All],No,River Ridge,[Districtwide],All Students,All Students,Out of School Suspension,542,10
+2018-19,School District,3,Sauk,5523,,[All],No,River Valley,[Districtwide],All Students,All Students,Out of School Suspension,1194,11
+2018-19,School District,3,Grant,3850,,[All],No,Riverdale,[Districtwide],All Students,All Students,Out of School Suspension,695,45
+2018-19,School District,6,Fond du Lac,4956,,[All],No,Rosendale-Brandon,[Districtwide],All Students,All Students,Out of School Suspension,1047,20
+2018-19,School District,5,Portage,4963,,[All],No,Rosholt,[Districtwide],All Students,All Students,Out of School Suspension,530,20
+2018-19,School District,4,Juneau,1673,,[All],No,Royall,[Districtwide],All Students,All Students,Out of School Suspension,508,1
+2018-19,School District,11,Saint Croix,2422,,[All],No,Saint Croix Central,[Districtwide],All Students,All Students,Out of School Suspension,1726,15
+2018-19,School District,11,Polk,5019,,[All],No,Saint Croix Falls,[Districtwide],All Students,All Students,Expulsion without Services Offered,1084,1
+2018-19,School District,11,Polk,5019,,[All],No,Saint Croix Falls,[Districtwide],All Students,All Students,Out of School Suspension,1084,43
+2018-19,School District,1,Milwaukee,5026,,[All],No,Saint Francis,[Districtwide],All Students,All Students,Out of School Suspension,1123,152
+2018-19,School District,2,Kenosha,5068,,[All],No,Salem,[Districtwide],All Students,All Students,Out of School Suspension,969,15
+2018-19,School District,5,Sauk,5100,,[All],No,Sauk Prairie,[Districtwide],All Students,All Students,Out of School Suspension,2785,39
+2018-19,School District,3,Crawford,5124,,[All],No,Seneca Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,290,1
+2018-19,School District,7,Door,5130,,[All],No,Sevastopol,[Districtwide],All Students,All Students,Out of School Suspension,613,18
+2018-19,School District,7,Outagamie,5138,,[All],No,Seymour Community,[Districtwide],All Students,All Students,Expulsion with Services Offered,2218,1
+2018-19,School District,7,Outagamie,5138,,[All],No,Seymour Community,[Districtwide],All Students,All Students,Out of School Suspension,2218,125
+2018-19,School District,2,Walworth,5258,,[All],No,Sharon J11,[Districtwide],All Students,All Students,,262,0
+2018-19,School District,8,Shawano,5264,,[All],No,Shawano,[Districtwide],All Students,All Students,Out of School Suspension,2460,86
+2018-19,School District,7,Sheboygan,5271,,[All],No,Sheboygan Area,[Districtwide],All Students,All Students,Out of School Suspension,10060,17
+2018-19,School District,7,Sheboygan,5278,,[All],No,Sheboygan Falls,[Districtwide],All Students,All Students,Out of School Suspension,1688,43
+2018-19,School District,11,Washburn,5306,,[All],No,Shell Lake,[Districtwide],All Students,All Students,Out of School Suspension,685,18
+2018-19,School District,6,Outagamie,5348,,[All],No,Shiocton,[Districtwide],All Students,All Students,Out of School Suspension,699,11
+2018-19,School District,1,Milwaukee,5355,,[All],No,Shorewood,[Districtwide],All Students,All Students,Out of School Suspension,2036,17
+2018-19,School District,3,Lafayette,5362,,[All],No,Shullsburg,[Districtwide],All Students,All Students,Out of School Suspension,370,7
+2018-19,School District,2,Kenosha,5369,,[All],No,Silver Lake J1,[Districtwide],All Students,All Students,Out of School Suspension,475,18
+2018-19,School District,11,Burnett,5376,,[All],No,Siren,[Districtwide],All Students,All Students,Expulsion with Services Offered,469,1
+2018-19,School District,11,Burnett,5376,,[All],No,Siren,[Districtwide],All Students,All Students,Out of School Suspension,469,24
+2018-19,School District,6,Washington,5390,,[All],No,Slinger,[Districtwide],All Students,All Students,Expulsion with Services Offered,3368,1
+2018-19,School District,6,Washington,5390,,[All],No,Slinger,[Districtwide],All Students,All Students,Out of School Suspension,3368,56
+2018-19,School District,12,Douglas,5397,,[All],No,Solon Springs,[Districtwide],All Students,All Students,Out of School Suspension,273,1
+2018-19,School District,11,Saint Croix,5432,,[All],No,Somerset,[Districtwide],All Students,All Students,Out of School Suspension,1499,48
+2018-19,School District,1,Milwaukee,5439,,[All],No,South Milwaukee,[Districtwide],All Students,All Students,Expulsion without Services Offered,3062,1
+2018-19,School District,1,Milwaukee,5439,,[All],No,South Milwaukee,[Districtwide],All Students,All Students,Out of School Suspension,3062,276
+2018-19,School District,12,Bayfield,4522,,[All],No,South Shore,[Districtwide],All Students,All Students,Out of School Suspension,177,4
+2018-19,School District,7,Door,5457,,[All],No,Southern Door County,[Districtwide],All Students,All Students,Expulsion without Services Offered,1009,2
+2018-19,School District,7,Door,5457,,[All],No,Southern Door County,[Districtwide],All Students,All Students,Out of School Suspension,1009,28
+2018-19,School District,3,Grant,2485,,[All],No,Southwestern Wisconsin,[Districtwide],All Students,All Students,Out of School Suspension,521,5
+2018-19,School District,4,Monroe,5460,,[All],No,Sparta Area,[Districtwide],All Students,All Students,Out of School Suspension,2981,139
+2018-19,School District,10,Marathon,5467,,[All],No,Spencer,[Districtwide],All Students,All Students,Out of School Suspension,686,23
+2018-19,School District,11,Washburn,5474,,[All],No,Spooner Area,[Districtwide],All Students,All Students,Out of School Suspension,1158,67
+2018-19,School District,11,Pierce,5586,,[All],No,Spring Valley,[Districtwide],All Students,All Students,Out of School Suspension,768,14
+2018-19,School District,10,Chippewa,5593,,[All],No,Stanley-Boyd Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,1099,1
+2018-19,School District,10,Chippewa,5593,,[All],No,Stanley-Boyd Area,[Districtwide],All Students,All Students,Out of School Suspension,1099,10
+2018-19,School District,5,Portage,5607,,[All],No,Stevens Point Area Public,[Districtwide],All Students,All Students,Out of School Suspension,7144,93
+2018-19,School District,7,Calumet,5614,,[All],No,Stockbridge,[Districtwide],All Students,All Students,Out of School Suspension,201,1
+2018-19,School District,1,Waukesha,3542,,[All],No,Stone Bank,[Districtwide],All Students,All Students,,353,0
+2018-19,School District,2,Dane,5621,,[All],No,Stoughton Area,[Districtwide],All Students,All Students,Out of School Suspension,2963,203
+2018-19,School District,9,Marathon,5628,,[All],No,Stratford,[Districtwide],All Students,All Students,Out of School Suspension,884,50
+2018-19,School District,7,Door,5642,,[All],No,Sturgeon Bay,[Districtwide],All Students,All Students,Out of School Suspension,1145,76
+2018-19,School District,2,Dane,5656,,[All],No,Sun Prairie Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,8521,1
+2018-19,School District,2,Dane,5656,,[All],No,Sun Prairie Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,8521,5
+2018-19,School District,2,Dane,5656,,[All],No,Sun Prairie Area,[Districtwide],All Students,All Students,Out of School Suspension,8521,802
+2018-19,School District,12,Douglas,5663,,[All],No,Superior,[Districtwide],All Students,All Students,Expulsion with Services Offered,4622,4
+2018-19,School District,12,Douglas,5663,,[All],No,Superior,[Districtwide],All Students,All Students,Out of School Suspension,4622,565
+2018-19,School District,8,Oconto,5670,,[All],No,Suring Public,[Districtwide],All Students,All Students,Expulsion without Services Offered,378,1
+2018-19,School District,8,Oconto,5670,,[All],No,Suring Public,[Districtwide],All Students,All Students,Out of School Suspension,378,23
+2018-19,School District,1,Waukesha,3510,,[All],No,Swallow,[Districtwide],All Students,All Students,Out of School Suspension,462,4
+2018-19,School District,10,Clark,5726,,[All],No,Thorp,[Districtwide],All Students,All Students,Out of School Suspension,602,12
+2018-19,School District,9,Oneida,5733,,[All],No,Three Lakes,[Districtwide],All Students,All Students,Out of School Suspension,535,32
+2018-19,School District,8,Shawano,5740,,[All],No,Tigerton,[Districtwide],All Students,All Students,Out of School Suspension,242,1
+2018-19,School District,4,Monroe,5747,,[All],No,Tomah Area,[Districtwide],All Students,All Students,Out of School Suspension,3121,85
+2018-19,School District,9,Lincoln,5754,,[All],No,Tomahawk,[Districtwide],All Students,All Students,Out of School Suspension,1224,53
+2018-19,School District,5,Portage,126,,[All],No,Tomorrow River,[Districtwide],All Students,All Students,Out of School Suspension,1195,3
+2018-19,School District,2,Kenosha,5780,,[All],No,Trevor-Wilmot Consolidated,[Districtwide],All Students,All Students,Expulsion without Services Offered,564,1
+2018-19,School District,2,Kenosha,5780,,[All],No,Trevor-Wilmot Consolidated,[Districtwide],All Students,All Students,Out of School Suspension,564,31
+2018-19,School District,5,Waushara,4375,,[All],No,Tri-County Area,[Districtwide],All Students,All Students,Out of School Suspension,611,21
+2018-19,School District,11,Barron,5810,,[All],No,Turtle Lake,[Districtwide],All Students,All Students,Out of School Suspension,458,10
+2018-19,School District,2,Kenosha,5817,,[All],No,Twin Lakes #4,[Districtwide],All Students,All Students,Out of School Suspension,316,1
+2018-19,School District,7,Manitowoc,5824,,[All],No,Two Rivers Public,[Districtwide],All Students,All Students,Expulsion with Services Offered,1821,1
+2018-19,School District,7,Manitowoc,5824,,[All],No,Two Rivers Public,[Districtwide],All Students,All Students,Expulsion without Services Offered,1821,1
+2018-19,School District,7,Manitowoc,5824,,[All],No,Two Rivers Public,[Districtwide],All Students,All Students,Out of School Suspension,1821,38
+2018-19,School District,2,Racine,5859,,[All],No,Union Grove J1,[Districtwide],All Students,All Students,Out of School Suspension,809,3
+2018-19,School District,2,Racine,5852,,[All],No,Union Grove UHS,[Districtwide],All Students,All Students,Out of School Suspension,986,31
+2018-19,School District,11,Polk,238,,[All],No,Unity,[Districtwide],All Students,All Students,Out of School Suspension,937,88
+2018-19,School District,7,Manitowoc,5866,,[All],No,Valders Area,[Districtwide],All Students,All Students,Out of School Suspension,980,13
+2018-19,School District,2,Dane,5901,,[All],No,Verona Area,[Districtwide],All Students,All Students,Out of School Suspension,5656,306
+2018-19,School District,4,Vernon,5985,,[All],No,Viroqua Area,[Districtwide],All Students,All Students,Out of School Suspension,1165,60
+2018-19,School District,8,Forest,5992,,[All],No,Wabeno Area,[Districtwide],All Students,All Students,Out of School Suspension,382,58
+2018-19,School District,2,Walworth,6022,,[All],No,Walworth J1,[Districtwide],All Students,All Students,Out of School Suspension,458,8
+2018-19,School District,12,Bayfield,6027,,[All],No,Washburn,[Districtwide],All Students,All Students,Out of School Suspension,572,3
+2018-19,School District,7,Door,6069,,[All],No,Washington,[Districtwide],All Students,All Students,Out of School Suspension,80,1
+2018-19,School District,2,Racine,6104,,[All],No,Washington-Caldwell,[Districtwide],All Students,All Students,,180,0
+2018-19,School District,2,Racine,6113,,[All],No,Waterford Graded J1,[Districtwide],All Students,All Students,Expulsion without Services Offered,1526,1
+2018-19,School District,2,Racine,6113,,[All],No,Waterford Graded J1,[Districtwide],All Students,All Students,Out of School Suspension,1526,15
+2018-19,School District,2,Racine,6083,,[All],No,Waterford UHS,[Districtwide],All Students,All Students,Expulsion with Services Offered,1058,1
+2018-19,School District,2,Racine,6083,,[All],No,Waterford UHS,[Districtwide],All Students,All Students,Out of School Suspension,1058,40
+2018-19,School District,2,Jefferson,6118,,[All],No,Waterloo,[Districtwide],All Students,All Students,Out of School Suspension,790,14
+2018-19,School District,2,Jefferson,6125,,[All],No,Watertown Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,3621,4
+2018-19,School District,2,Jefferson,6125,,[All],No,Watertown Unified,[Districtwide],All Students,All Students,Out of School Suspension,3621,441
+2018-19,School District,1,Waukesha,6174,,[All],No,Waukesha,[Districtwide],All Students,All Students,Expulsion with Services Offered,12739,2
+2018-19,School District,1,Waukesha,6174,,[All],No,Waukesha,[Districtwide],All Students,All Students,Expulsion without Services Offered,12739,14
+2018-19,School District,1,Waukesha,6174,,[All],No,Waukesha,[Districtwide],All Students,All Students,Out of School Suspension,12739,940
+2018-19,School District,2,Dane,6181,,[All],No,Waunakee Community,[Districtwide],All Students,All Students,Expulsion without Services Offered,4339,2
+2018-19,School District,2,Dane,6181,,[All],No,Waunakee Community,[Districtwide],All Students,All Students,Out of School Suspension,4339,34
+2018-19,School District,5,Waupaca,6195,,[All],No,Waupaca,[Districtwide],All Students,All Students,Out of School Suspension,2113,116
+2018-19,School District,6,Fond du Lac,6216,,[All],No,Waupun,[Districtwide],All Students,All Students,Expulsion without Services Offered,1947,1
+2018-19,School District,6,Fond du Lac,6216,,[All],No,Waupun,[Districtwide],All Students,All Students,Out of School Suspension,1947,57
+2018-19,School District,9,Marathon,6223,,[All],No,Wausau,[Districtwide],All Students,All Students,Out of School Suspension,8311,353
+2018-19,School District,8,Marinette,6230,,[All],No,Wausaukee,[Districtwide],All Students,All Students,Out of School Suspension,418,18
+2018-19,School District,5,Waushara,6237,,[All],No,Wautoma Area,[Districtwide],All Students,All Students,Expulsion with Services Offered,1355,1
+2018-19,School District,5,Waushara,6237,,[All],No,Wautoma Area,[Districtwide],All Students,All Students,Expulsion without Services Offered,1355,6
+2018-19,School District,5,Waushara,6237,,[All],No,Wautoma Area,[Districtwide],All Students,All Students,Out of School Suspension,1355,103
+2018-19,School District,1,Milwaukee,6244,,[All],No,Wauwatosa,[Districtwide],All Students,All Students,Out of School Suspension,7219,311
+2018-19,School District,3,Crawford,6251,,[All],No,Wauzeka-Steuben,[Districtwide],All Students,All Students,Out of School Suspension,282,3
+2018-19,School District,11,Burnett,6293,,[All],No,Webster,[Districtwide],All Students,All Students,Expulsion with Services Offered,672,5
+2018-19,School District,11,Burnett,6293,,[All],No,Webster,[Districtwide],All Students,All Students,Out of School Suspension,672,50
+2018-19,School District,1,Milwaukee,6300,,[All],No,West Allis-West Milwaukee,[Districtwide],All Students,All Students,Expulsion without Services Offered,8240,4
+2018-19,School District,1,Milwaukee,6300,,[All],No,West Allis-West Milwaukee,[Districtwide],All Students,All Students,Out of School Suspension,8240,590
+2018-19,School District,6,Washington,6307,,[All],No,West Bend,[Districtwide],All Students,All Students,Out of School Suspension,6582,249
+2018-19,School District,7,Brown,6328,,[All],No,West De Pere,[Districtwide],All Students,All Students,Expulsion without Services Offered,3556,1
+2018-19,School District,7,Brown,6328,,[All],No,West De Pere,[Districtwide],All Students,All Students,Out of School Suspension,3556,173
+2018-19,School District,4,La Crosse,6370,,[All],No,West Salem,[Districtwide],All Students,All Students,Out of School Suspension,1797,31
+2018-19,School District,4,Vernon,6321,,[All],No,Westby Area,[Districtwide],All Students,All Students,Out of School Suspension,1102,43
+2018-19,School District,5,Marquette,6335,,[All],No,Westfield,[Districtwide],All Students,All Students,Out of School Suspension,1061,46
+2018-19,School District,3,Sauk,6354,,[All],No,Weston,[Districtwide],All Students,All Students,Expulsion without Services Offered,278,2
+2018-19,School District,3,Sauk,6354,,[All],No,Weston,[Districtwide],All Students,All Students,Out of School Suspension,278,18
+2018-19,School District,6,Waupaca,6384,,[All],No,Weyauwega-Fremont,[Districtwide],All Students,All Students,Out of School Suspension,857,12
+2018-19,School District,2,Kenosha,6412,,[All],No,Wheatland J1,[Districtwide],All Students,All Students,Out of School Suspension,542,12
+2018-19,School District,8,Langlade,6440,,[All],No,White Lake,[Districtwide],All Students,All Students,Out of School Suspension,145,38
+2018-19,School District,1,Milwaukee,6419,,[All],No,Whitefish Bay,[Districtwide],All Students,All Students,Out of School Suspension,2992,53
+2018-19,School District,4,Trempealeau,6426,,[All],No,Whitehall,[Districtwide],All Students,All Students,Expulsion without Services Offered,768,1
+2018-19,School District,4,Trempealeau,6426,,[All],No,Whitehall,[Districtwide],All Students,All Students,Out of School Suspension,768,33
+2018-19,School District,2,Walworth,6461,,[All],No,Whitewater Unified,[Districtwide],All Students,All Students,Expulsion without Services Offered,1940,1
+2018-19,School District,2,Walworth,6461,,[All],No,Whitewater Unified,[Districtwide],All Students,All Students,Out of School Suspension,1940,277
+2018-19,School District,1,Milwaukee,6470,,[All],No,Whitnall,[Districtwide],All Students,All Students,Out of School Suspension,2506,190
+2018-19,School District,5,Waushara,6475,,[All],No,Wild Rose,[Districtwide],All Students,All Students,Out of School Suspension,580,12
+2018-19,School District,2,Walworth,6482,,[All],No,Williams Bay,[Districtwide],All Students,All Students,,721,0
+2018-19,School District,2,Kenosha,6545,,[All],No,Wilmot UHS,[Districtwide],All Students,All Students,Out of School Suspension,1026,89
+2018-19,School District,6,Winnebago,6608,,[All],No,Winneconne Community,[Districtwide],All Students,All Students,Out of School Suspension,1682,22
+2018-19,School District,12,Sawyer,6615,,[All],No,Winter,[Districtwide],All Students,All Students,Out of School Suspension,249,18
+2018-19,School District,5,Sauk,6678,,[All],No,Wisconsin Dells,[Districtwide],All Students,All Students,Out of School Suspension,1787,63
+2018-19,School District,2,Dane,469,,[All],No,Wisconsin Heights,[Districtwide],All Students,All Students,Out of School Suspension,776,9
+2018-19,School District,5,Wood,6685,,[All],No,Wisconsin Rapids,[Districtwide],All Students,All Students,Expulsion with Services Offered,5114,1
+2018-19,School District,5,Wood,6685,,[All],No,Wisconsin Rapids,[Districtwide],All Students,All Students,Expulsion without Services Offered,5114,4
+2018-19,School District,5,Wood,6685,,[All],No,Wisconsin Rapids,[Districtwide],All Students,All Students,Out of School Suspension,5114,487
+2018-19,School District,8,Shawano,6692,,[All],No,Wittenberg-Birnamwood,[Districtwide],All Students,All Students,Out of School Suspension,1178,42
+2018-19,School District,4,Juneau,6713,,[All],No,Wonewoc-Union Center,[Districtwide],All Students,All Students,Out of School Suspension,345,6
+2018-19,School District,9,Vilas,6720,,[All],No,Woodruff J1,[Districtwide],All Students,All Students,Out of School Suspension,545,15
+2018-19,School District,7,Brown,6734,,[All],No,Wrightstown Community,[Districtwide],All Students,All Students,Out of School Suspension,1367,15
+2018-19,School District,2,Racine,6748,,[All],No,Yorkville J2,[Districtwide],All Students,All Students,,438,0
