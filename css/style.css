@@ -91,6 +91,10 @@ a {
   color: #fff !important;
 }
 
+#insidePop {
+  color: #000 !important;
+}
+
 div.modal-header {
   background-color: #0E4D92;
   color: #fff;
