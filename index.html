@@ -4,31 +4,134 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-      <title>ArcGIS API for JavaScript Tutorials: Create a JavaScript starter app</title>
+      <title>Wisconsin School District Data Generator (2018-2019 School Year)</title>
 
       <link rel="stylesheet" href="css/style.css">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Can also change this section to change widgets color. -->
       <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
-      <script src="https://js.arcgis.com/4.18/"></script>
+
       <link rel="stylesheet" href="https://js.arcgis.com/4.18/dgrid/css/dgrid.css">
 
     </head>
 
     <body>
-        <div id="viewDiv"></div>
-        <div id="actions" class="esri-widget">
-          <div id="btn1" type="esri-button">Public Schools</div>
-          <div id="btn2" type="esri-button">Public Libraries</div>
-          <div id="btn3" type="esri-button">School Districts</div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle"><b>Purpose of Data Generator</b></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            This website allows users to select on a map, or query in a search bar, a
+            specified school district in Wisconsin. Depending on which school district is
+            queried or selected, this website will output data from the 2018-2019 school year such as general school district,
+            enrollment, attendance, and disciplinary
+            information. Output school district data could be used for
+            relocation, community strengthening, organizational, or general data needs. Users are
+            able to enter addresses to examine surrounding public libraries, public schools, and
+            school districts. The map allows the users to toggle the public libraries layer, public schools layer, and
+            school districts layer, off and on. Users can also search public libraries and public schools
+            by name.
+            <br>
+            <br>
+            Most recent yearly school district data will be updated on this website when available.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
-        <div id="schoolName" style="padding:5px; margin:5px; background-color:#eee;"></div>
-        <div id="schoolType" style="padding:5px; margin:5px; background-color:#eee;"></div>
-        <div id="county" style="padding:5px; margin:5px; background-color:#eee;"></div>
-        <div id="instructionsDays" style="padding:5px; margin:5px; background-color:#eee;"></div>
+      </div>
+      <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle"><b>Layer Data Integrity Warning</b></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            Layer data is provided by the Wiconsin Department of Public Instruction(WDPI), which states:
+            <br>
+            <br>
+            "The layers on this website are intended for your reference use only. They contain the best information the Department of Public Instruction (DPI) has to date,
+            but no guarantee of accuracy is made. They should not be used for any land transactions, financial decisions, taxation, surveying, or other similar uses.
+            See summary information about boundary changes in the DPI property transfer log. The DPI is not responsible for data that is misinterpreted or altered in any way.
+            Derived conclusions and analyses generated from this data are not to be considered attributable to the DPI."
+            <br>
+            <br>
+            WDPI GIS Open Data Portal Link: <a href="https://data-wi-dpi.opendata.arcgis.com/">Click me</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" id=intro>
+        <div class="row" id=header>
+          <h1>
+              <b>Wisconsin School District Data Generator (2018-2019 School Year)</b>
+          </h1>
+        </div>
+        <div class="row">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Purpose of Data Generator (click me)
+          </button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1">
+            Layer Data Integrity Warning (click me)
+          </button>
+        </div>
+        <div class="mapSection" id="mapBox" >
+          <div id="viewDiv"></div>
+        </div>
+        <div class="row">
+          <!-- icons from: https://thenounproject.com/ -->
+          <div class="col-sm-6">
+            <div class="section" id="generalInfo" >
+              <div class="sectionHead" id="schoolInfo">
+                <img src="img/edu.png" alt="education">
+                <b>School District General Information</b>
+              </div>
+              <br>
+              <div id="schoolName"><b>Name:</b></div>
+              <div id="schoolType"><b>Type:</b></div>
+              <div id="sDID"><b>School District ID:</b></div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="section" id="attendanceInfo" >
+              <div class="sectionHead" id="attendanceInfo">
+                <img src="img/attend.png" alt="education">
+                <b>School District Attendance Information</b>
+              </div>
+              <br>
+              <div id="aDA"><b>Average Daily Attendance:</b></div>
+              <div id="aDM"><b>Average Daily Membership:</b></div>
+            </div>
+          </div>
+        </div>
+        <button id="moreData" type="button" class="btn btn-primary" data-toggle="modal">
+          <a href="https://dpi.wi.gov/wisedash/download-files" target="_blank">Access to School District Data Provided by WDPI (click me)</a>
+        </button>
+      </div>
 
-        <!-- scripts -->
-        <script src="lib/jquery-3.5.1.min.js"></script>
-        <script src="js/loadMap.js"></script>
+      <!-- must add -->
+      <!-- Click show all, then hit search to get directory info for each school district  -->
+      <!-- https://apps6.dpi.wi.gov/SchoolDirectory/Search/PublicDistrictsSearch   -->
 
+      <!-- scripts -->
+      <script src="lib/jquery-3.5.1.min.js"></script>
+      <script src="lib/bootstrap.min.js"></script>
+      <script src="lib/bootstrap.bundle.min.js"></script>
+      <script src="https://js.arcgis.com/4.18/"></script>
+      <script src="js/loadMap.js"></script>
     </body>
 </html>

@@ -1,21 +1,106 @@
-html, body, #viewDiv {
-  padding: 0;
+html {
+  background-color: #ECECEC;
+}
+
+body {
+  background-color: #ECECEC !important;
+}
+
+html, body, .container-fluid, .mapSection, #viewDiv {
+  padding: 1px;
   margin: 0;
-  height: 98%;
+  height: 100%;
   width: 100%;
 }
 
-#add {
-  margin-bottom: 5px;
+#mapBox {
+  border:1px solid;
+  border-color: #000;
 }
 
-#actions {
-  padding: 5px;
+h1 {
+  font-size: 35px !important;
+  color:#fff !important;
 }
 
-button:disabled {
-  opacity: 0.4;
-  -moz-opacity: 0.4; /* Firefox and Mozilla browsers */
-  -webkit-opacity: 0.4; /* Safari */
-  cursor: default;
+button.btn.btn-primary {
+  color:#FFF;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#187BCD;
+  border:1px solid;
+  border-color: #000;
+  display: block;
+  margin: 0 auto;
+}
+
+#header{
+  background-color: #187BCD;
+  display: block;
+  margin: 0 auto;
+}
+
+.row{
+  text-align:center;
+}
+
+.row{
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*
+.container-fluid {
+  align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+*/
+
+.mapSection {
+  background-color:#187BCD;
+}
+
+.section {
+  text-align: left;
+  padding: 10px;
+  text-indent: 5%;
+  background-color:#187BCD;
+  border:1px solid;
+  border-color: #000;
+  color:#fff;
+  font-size: 13px;
+}
+
+.sectionHead {
+  text-align:center;
+  font-size: 15px;
+}
+
+#moreData {
+  margin:10px auto;
+  display:block;
+}
+
+button.btn.btn-primary:hover {
+  background-color: #0E4D92;
+  color:#eee;
+}
+
+a {
+  color: #fff !important;
+}
+
+div.modal-header {
+  background-color: #0E4D92;
+  color: #fff;
+}
+
+span {
+  color: #fff;
+}
+
+img {
+  height: 25px;
+  width: 25px;
 }

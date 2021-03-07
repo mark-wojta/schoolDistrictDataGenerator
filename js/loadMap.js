@@ -9,11 +9,11 @@ require([
    "esri/widgets/FeatureTable",
    "esri/widgets/LayerList",
    "esri/core/watchUtils",
-   "esri/widgets/Expand"
+   "esri/widgets/Expand",
 
  ], function(esriConfig, Map, MapView, FeatureLayer, Search, QueryTask, Query, FeatureTable, LayerList, watchUtils, Expand) {
 
- esriConfig.apiKey = "AAPK47cde08317c54c4787a996b3d81b63167J2oyWodB9Io3ngNuRLKWjSPSLlRBjfTMqna2XAJQWKAFGDEIyjGXlTiNHHC2QRY";
+ esriConfig.apiKey = "AAPKe04a3b5b2ef2480ca44096e68e2eca61hmQ6jnQTcGgB0fnrzWmmq0qSCnotfwAOnE5nDJTY9FR3INVduag1BSPJR9Jqmxs2";
 
  const map = new Map({
    basemap: "arcgis-topographic"
@@ -72,7 +72,7 @@ require([
  //pop up for school district being searched
  var schoolDistrictsSearch = new FeatureLayer({
    url:
-     "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/schoolDistrictGDB/FeatureServer/2",
+     "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/2",
    popupTemplate: {
      // autocasts as new PopupTemplate()
      title: "{DISTRICT} School District </br>Type: {Type}",
@@ -124,21 +124,21 @@ require([
   //ADD COUNTIES LAYER????
   //schools feature layer (points)
   const schoolsLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/schoolDistrictGDB/FeatureServer/0"
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/0"
   });
 
   map.add(schoolsLayer);
 
   //school district feature layer (polygons)
   const schoolDistrictsLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/schoolDistrictGDB/FeatureServer/2"
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/2"
   });
 
   map.add(schoolDistrictsLayer, 0);
 
   //school district feature layer (points)
   const librariesLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/schoolDistrictGDB/FeatureServer/1"
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/1"
   });
 
   map.add(librariesLayer);
@@ -149,7 +149,7 @@ require([
     console.log("The selected search result: ", event.result.name);
 
     const queryId = schoolDistrictsLayer.createQuery();
-    queryId.where = "DISTRICT = '" + event.result.name + "'" ;
+    queryId.where = "DISTRICT = '" + event.result.name + "'";
 
     schoolDistrictsLayer.queryFeatures(queryId).then(function(response) {
       schoolDistrictsLayers = response.features.map(function(feature) {
@@ -157,20 +157,31 @@ require([
       console.log(feature.attributes["DISTRICT"]);
       console.log(feature.attributes["TYPE"]);
 
-      document.getElementById("schoolType").innerHTML = "";
-      var theDiv = document.getElementById("schoolType");
-      var content = document.createTextNode(feature.attributes["TYPE"]);
-      theDiv.appendChild(content);
+      function districtResults(iDName, dataText, fieldName) {
+        document.getElementById(iDName).innerHTML = "";
+        let para = document.createElement('p');
+        let bold = document.createElement('b');
+        var boldString = document.createTextNode(dataText);
+        bold.appendChild(boldString);
+        para.appendChild(bold);
+        var content = document.createTextNode(feature.attributes[fieldName]);
+        para.appendChild(content);
+        var theDiv = document.getElementById(iDName);
+        theDiv.appendChild(para);
 
-      document.getElementById("schoolName").innerHTML = "";
-      var theDiv1 = document.getElementById("schoolName");
-      var content1 = document.createTextNode(feature.attributes["DISTRICT"]);
-      theDiv1.appendChild(content1);
+      };
+
+      districtResults("schoolName", "District Name: ", "DISTRICT");
+      districtResults("schoolType", "District Type: ", "TYPE");
+      districtResults("sDID", "School District ID: ", "SDID");
+      districtResults("aDA", "Average Daily Attendance: ", "ADM");
+      districtResults("aDM", "Average Daily Membership: ", "ADA");
 
       });
     });
 
   });
+
 
 
 /*
@@ -201,15 +212,3 @@ require([
 */
 
 });
-
-function toggle(){
-  currentvalue = document.getElementById('btn1').value;
-  if(currentvalue == "Off"){
-    document.getElementById("btn1").value="On";
-    document.getElementById("btn1").innerHTML = "asdfasdfasdf";
-  }
-  else{
-    document.getElementById("btn1").value="Off";
-    document.getElementById("btn1").innerHTML = "hello";
-  }
-};
