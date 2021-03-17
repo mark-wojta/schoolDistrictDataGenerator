@@ -1,46 +1,63 @@
 html {
-  background-color: #ECECEC;
+  background-color: #ECECEC !important;
 }
 
 body {
   background-color: #ECECEC !important;
 }
 
-html, body, .container-fluid, .mapSection, #viewDiv {
+html, body, .grid-container, .mapSection, #viewDiv {
   padding: 1px;
   margin: 0;
   height: 100%;
   width: 100%;
 }
 
-#mapBox {
-  border:1px solid;
-  border-color: #000;
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color:#187BCD !important;
+  color:#fff;
 }
 
-h1 {
-  font-size: 35px !important;
-  color:#fff !important;
+.navbar-brand {
+    font-size: 14px !important;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    transform: scale(1, 1.2);
+    -webkit-transform: scale(1, 1.2); /* Safari and Chrome */
+    -moz-transform: scale(1, 1.2); /* Firefox */
+    -ms-transform: scale(1, 1.2); /* IE 9+ */
+    -o-transform: scale(1, 1.2); /* Opera */
+    text-shadow: 0 0 3px #000000, 0 0 5px #fafafa;
+    font-weight:bold;
+    padding-left: 20px;
+}
+
+.bigger { font-size:140%; }
+
+.navbar-toggler {
+  background-color: #fafafa !important;
+  border:2px solid !important;
+  border-color: #737373 !important;
+  width: 50px !important;
+  height: 40px !important;
+  font-size: 15px !important;
+}
+
+.navbar-toggler:hover {
+  background-color: #dedede !important;
 }
 
 button.btn.btn-primary {
-  color:#FFF;
+  color:#444444 !important;
   font: bold 84% 'trebuchet ms',helvetica,sans-serif;
-  background-color:#187BCD;
-  border:1px solid;
-  border-color: #000;
-  display: block;
-  margin: 0 auto;
+  background-color:#fafafa;
+  border:2px solid;
+  border-color: #737373;
+  padding: 10px !important;
+  margin: 2px;
 }
 
-#header{
-  background-color: #187BCD;
-  display: block;
-  margin: 0 auto;
-}
-
-.row{
-  text-align:center;
+button.btn.btn-primary:hover {
+  background-color: #dedede;
 }
 
 .row{
@@ -57,38 +74,31 @@ button.btn.btn-primary {
 }
 */
 
-.mapSection {
-  background-color:#187BCD;
-}
-
 .section {
   text-align: left;
-  padding: 10px;
+  padding: 7px;
   text-indent: 5%;
-  background-color:#187BCD;
+  background-color: rgba(24,123,205,.9);
   border:1px solid;
-  border-color: #000;
-  color:#fff;
+  border-color: #737373;
+  color:#FFFFFF;
   font-size: 13px;
+  margin-bottom: 3px;
 }
 
 .sectionHead {
   text-align:center;
-  font-size: 15px;
+  font-size: 14px;
 }
 
-#moreData {
-  margin:10px auto;
-  display:block;
+#schoolDistrict {
+  text-align:center;
+  font-size: 17px;
 }
 
-button.btn.btn-primary:hover {
-  background-color: #0E4D92;
-  color:#eee;
-}
-
-a {
-  color: #fff !important;
+#schoolDistrictText {
+  text-align:center;
+  font-size: 16px;
 }
 
 #insidePop {
@@ -103,4 +113,68 @@ div.modal-header {
 img {
   height: 25px;
   width: 25px;
+}
+
+.grid-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, .4);
+  transition: 1s ease;
+}
+
+.sidebar {
+  width: 50%;
+  height: 100%;
+  background-color: #ECECEC;
+  transition: 1s ease;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.mapSection {
+  width: 50%;
+  height: 100%;
+  background-color: #ccc;
+  transition: 1s ease;
+}
+
+.mapSection_large {
+  width: 100%;
+}
+
+.sidebar_small {
+  width: 0%;
+  overflow-y: scroll;
+}
+
+/*
+#panelButton {
+  position: absolute;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+  left: 5%;
+  top: 15rem;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+*/
+
+#panelButton {
+  border: none;
+  height: 32px;
+  width: 32px;
+  box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+  cursor: pointer;
+  background-color: #fff;
+  color: #737373;
+}
+
+#panelButton:hover {
+  background-color: #dedede;
+  color:#444444;
 }

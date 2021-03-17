@@ -4,7 +4,7 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-      <title>Wisconsin School District Data Generator (2018-2019 School Year)</title>
+      <title>Wisconsin School Districts Explorer (2018-2019 School Year)</title>
 
       <link rel="stylesheet" href="css/style.css">
       <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +16,35 @@
     </head>
 
     <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"><b><span class='bigger'>Wisconsin School Districts Explorer </span> (2018-2019 School Year)</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-">
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                    <button type="button" class="btn btn-primary">Application Purpose</button>
+                  </a>
+                </div>
+                <div class="col-">
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter1">
+                    <button type="button" class="btn btn-primary">Layer Data Integrity Warning</button>
+                  </a>
+                </div>
+                <div class="col-">
+                  <a class="nav-link" href="https://dpi.wi.gov/wisedash/download-files" target="_blank">
+                    <button type="button" class="btn btn-primary">More School District Data</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </nav>
       <!-- Modal -->
       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -66,7 +95,7 @@
             Derived conclusions and analyses generated from this data are not to be considered attributable to the DPI."
             <br>
             <br>
-            WDPI GIS Open Data Portal Link: <a div="insidePop" href="https://data-wi-dpi.opendata.arcgis.com/" target="_blank" style="color: #03a9f4 !important;">Click me</a>
+            <a div="insidePop" href="https://data-wi-dpi.opendata.arcgis.com/" target="_blank" style="color: #03a9f4 !important;">WDPI GIS Open Data Portal Link</a>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -74,54 +103,66 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid" id=intro>
-        <div class="row" id=header>
-          <h1>
-              <b>Wisconsin School District Data Generator (2018-2019 School Year)</b>
-          </h1>
-        </div>
-        <div class="row">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-            Purpose of Data Generator (click me)
-          </button>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1">
-            Layer Data Integrity Warning (click me)
-          </button>
-        </div>
-        <div class="mapSection" id="mapBox" >
+      <div class="grid-container" id=intro>
+        <div class="mapSection">
           <div id="viewDiv"></div>
         </div>
-        <div class="row">
-          <!-- icons from: https://thenounproject.com/ -->
-          <div class="col-sm-6">
-            <div class="section" id="generalInfo" >
-              <div class="sectionHead" id="schoolInfo">
-                <img src="img/edu.png" alt="education">
-                <b>School District General Information</b>
+        <!-- ADD DATA INTO TABS OR BETTER WAY TO ORGANIZE AND DISPLAY ONLY ONE AT A TIME???? -->
+        <div class="sidebar">
+          <div class="overflow-auto">
+            <!-- icons from: https://thenounproject.com/ -->
+            <div class="col-">
+              <div class="section">
+                <div id="schoolDistrict">
+                  <b>Search a School District for</b>
+                </div>
+                <div id="schoolDistrictText">
+                  <b>School District Data</b>
+                </div>
               </div>
-              <br>
-              <div id="schoolName"><b>Name:</b></div>
-              <div id="schoolType"><b>Type:</b></div>
-              <div id="sDID"><b>School District ID:</b></div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="section" id="attendanceInfo" >
-              <div class="sectionHead" id="attendanceInfo">
-                <img src="img/attend.png" alt="education">
-                <b>School District Attendance Information</b>
+            <div class="col-">
+              <div class="section">
+                <div class="sectionHead" id="schoolInfo">
+                  <img src="img/edu.png">
+                  <b>General Information</b>
+                </div>
+                <br>
+                <div id="schoolName"><b>Name:</b></div>
+                <div id="schoolType"><b>Type:</b></div>
+                <div id="sDID"><b>School District ID:</b></div>
+                <div id="confName"><b>Athletic Conference Name:</b></div>
+                <div id="countyName"><b>County Name:</b></div>
               </div>
-              <br>
-              <div id="aDA"><b>Average Daily Attendance:</b></div>
-              <div id="aDM"><b>Average Daily Membership:</b></div>
+            </div>
+            <div class="col-">
+              <div class="section">
+                <div class="sectionHead" id="attendanceInfo">
+                  <img src="img/attend.png">
+                  <b>Attendance and Enrollment</b>
+                </div>
+                <br>
+                <div id="aDA"><b>Average Daily Attendance:</b></div>
+                <div id="aDM"><b>Average Daily Membership:</b></div>
+                <div id="studCount"><b>Student Count:</b></div>
+              </div>
+            </div>
+            <div class="col-">
+              <div class="section">
+                <div class="sectionHead" id="disciplineInfo">
+                  <img src="img/attend.png">
+                  <b>Disciplinary Action</b>
+                </div>
+                <br>
+                <div id="explServ"><b>Expulsions with Services Offered:</b></div>
+                <div id="explNoServ"><b>Expulsions with no Services Offered:</b></div>
+                <div id="oSS"><b>Out of School Suspensions:</b></div>
+              </div>
             </div>
           </div>
         </div>
-        <button id="moreData" type="button" class="btn btn-primary" data-toggle="modal">
-          <a href="https://dpi.wi.gov/wisedash/download-files" target="_blank">More School District Data Provided by WDPI (click me)</a>
-        </button>
       </div>
+
 
       <!-- must add -->
       <!-- Click show all, then hit search to get directory info for each school district  -->
