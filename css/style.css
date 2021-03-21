@@ -13,25 +13,23 @@ html, body, .grid-container, .mapSection, #viewDiv {
   width: 100%;
 }
 
-.navbar.navbar-expand-lg.navbar-light.bg-light {
+
+.navbar.navbar-light.bg-light {
   background-color:#187BCD !important;
   color:#fff;
 }
 
 .navbar-brand {
-    font-size: 14px !important;
+    font-size: 100% !important;
     font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-    transform: scale(1, 1.2);
-    -webkit-transform: scale(1, 1.2); /* Safari and Chrome */
-    -moz-transform: scale(1, 1.2); /* Firefox */
-    -ms-transform: scale(1, 1.2); /* IE 9+ */
-    -o-transform: scale(1, 1.2); /* Opera */
-    text-shadow: 0 0 3px #000000, 0 0 5px #fafafa;
+    text-shadow: 0 0 2px #000000, 0 0 2px #fafafa;
     font-weight:bold;
-    padding-left: 20px;
+    padding-left: 1%;
 }
 
-.bigger { font-size:140%; }
+.bigger {
+  font-size:120%;
+}
 
 .navbar-toggler {
   background-color: #fafafa !important;
@@ -83,7 +81,10 @@ button.btn.btn-primary:hover {
   border-color: #737373;
   color:#FFFFFF;
   font-size: 13px;
-  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .sectionHead {
@@ -138,6 +139,7 @@ img {
   height: 100%;
   background-color: #ccc;
   transition: 1s ease;
+  margin: 3px;
 }
 
 .mapSection_large {
@@ -147,6 +149,24 @@ img {
 .sidebar_small {
   width: 0%;
   overflow-y: scroll;
+}
+
+.visible {
+  display: block !important;
+}
+
+.loading{
+  position: absolute;
+  top: 100%;
+  left: 2%;
+  display: none;
+  padding: 8px;
+  background-color: rgba(24,123,205,.7);
+  border:1px solid;
+  border-color: #737373;
+  color:#FFFFFF;
+  text-align:center;
+  font-size: 12px;
 }
 
 /*
@@ -177,4 +197,10 @@ img {
 #panelButton:hover {
   background-color: #dedede;
   color:#444444;
+}
+
+.img_container{
+    width:100px;
+    height:100px;
+    position:relative;
 }

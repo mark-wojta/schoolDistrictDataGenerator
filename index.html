@@ -16,7 +16,7 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand"><b><span class='bigger'>Wisconsin School Districts Explorer </span> (2018-2019 School Year)</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -105,7 +105,9 @@
       </div>
       <div class="grid-container" id=intro>
         <div class="mapSection">
-          <div id="viewDiv"></div>
+          <div id="viewDiv">
+            <div id="loadingDiv" class="loading">Map Loading...</div>
+          </div>
         </div>
         <!-- ADD DATA INTO TABS OR BETTER WAY TO ORGANIZE AND DISPLAY ONLY ONE AT A TIME???? -->
         <div class="sidebar">
@@ -150,7 +152,7 @@
             <div class="col-">
               <div class="section">
                 <div class="sectionHead" id="disciplineInfo">
-                  <img src="img/attend.png">
+                  <img src="img/disc.png">
                   <b>Disciplinary Action</b>
                 </div>
                 <br>

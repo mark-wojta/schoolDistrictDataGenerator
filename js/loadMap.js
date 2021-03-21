@@ -11,10 +11,13 @@ require([
   "esri/core/watchUtils",
   "esri/widgets/Expand",
   "esri/widgets/BasemapGallery",
-  "esri/widgets/Legend"
+  "esri/widgets/Legend",
+  "esri/widgets/Popup",
+  "esri/PopupTemplate",
+  "dojo/dom-class"
 
  ], function(esriConfig, Map, MapView, FeatureLayer, Search, QueryTask, Query, FeatureTable, LayerList, watchUtils,
-  Expand, BasemapGallery, Legend) {
+  Expand, BasemapGallery, Legend, Popup, PopupTemplate, domClass) {
 
   esriConfig.apiKey = "AAPKe04a3b5b2ef2480ca44096e68e2eca61hmQ6jnQTcGgB0fnrzWmmq0qSCnotfwAOnE5nDJTY9FR3INVduag1BSPJR9Jqmxs2";
 
@@ -30,27 +33,409 @@ require([
   }
   );
 
+  // Display the loading indicator when the view is updating
+  watchUtils.whenTrue(view, "updating", function(evt) {
+    domClass.add('loadingDiv', 'visible');
+  });
+
+  // Hide the loading indicator when the view stops updating
+  watchUtils.whenFalse(view, "updating", function(evt) {
+    domClass.remove('loadingDiv', 'visible');
+  });
+
+
+/*
+  // Display the loading indicator when the view is updating
+  watchUtils.whenTrue(view, "updating", function(evt) {
+    if () {
+      $(".smallLoading").show();
+    }
+    else if () {
+      $(".loading").show();
+    }
+  });
+
+  // Hide the loading indicator when the view stops updating
+  watchUtils.whenFalse(view, "updating", function(evt) {
+    if () {
+      $(".smallLoading").hide();
+    }
+    else if () {
+      $(".loading").hide();
+    }
+  });
+*/
+
   //ADD COUNTIES LAYER????
+
+  // Define a pop-up for schools
+  const popupSchools = {
+    "title": "School",
+    "content": [{
+      "type": "fields",
+      "fieldInfos": [
+        {
+          "fieldName": "SCHOOL",
+          "label": "Name:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "DISTRICT",
+          "label": "District:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "SCHOOLTYPE",
+          "label": "Type:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "AGENCYTYPE",
+          "label": "Agency Type:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "SCH_STYLE",
+          "label": "Style:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "GRADE_RANGE",
+          "label": "Grade Range:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "LOCALE",
+          "label": "Locale:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "SCHOOL_URL",
+          "label": "Website:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "FULL_ADDR",
+          "label": "Address:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        }
+      ]
+    }]
+  }
+
+  //create schools icon
+  const schoolsRenderer = {
+    "type": "simple",
+    "symbol": {
+      "type": "picture-marker",
+      "url": "img/schools.png",
+      "width": "12px",
+      "height": "12px"
+    }
+  }
+
   //schools feature layer (points)
   const schoolsLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/0"
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/0",
+    renderer: schoolsRenderer,
+    opacity: 0.8,
+    outFields: ["SCHOOL","DISTRICT","SCHOOLTYPE","AGENCYTYPE","SCH_STYLE","GRADE_RANGE","LOCALE","SCHOOL_URL","FULL_ADDR"],
+    popupTemplate: popupSchools
   });
 
   map.add(schoolsLayer);
 
+  //clusters schools
+  schoolsLayer.featureReduction = {
+    type: "cluster",
+    clusterRadius: "100px",
+    popupTemplate: {
+      // cluster_count is an aggregate field indicating the number
+      // of features summarized by the cluster
+      content: "This cluster represents {cluster_count} schools."
+    },
+    // You should adjust the clusterMinSize to properly fit labels
+    clusterMinSize: "20px",
+    clusterMaxSize: "45px",
+    labelingInfo: [{
+      // turn off deconfliction to ensure all clusters are labeled
+      deconflictionStrategy: "none",
+      labelExpressionInfo: {
+        expression: "Text($feature.cluster_count, '#,###')"
+      },
+      symbol: {
+        type: "text",
+        color: "#004a5d",
+        font: {
+          weight: "bold",
+          family: "Noto Sans",
+          size: "12px"
+        }
+      },
+      labelPlacement: "center-center",
+    }]
+  }
+
+  // Define a pop-up for Trailheads
+  const popupDistricts = {
+    "title": "<b>{DISTRICT} School District</b>"
+  }
+
+  // Add districts with a class breaks renderer and unique symbols
+  function createFillSymbol(value, color) {
+    return {
+      value: value,
+      symbol: {
+        color: color,
+        type: "simple-fill",
+        style: "solid",
+        outline: {
+          color: "#222222",
+          width: .4
+        }
+      },
+      "label": value
+    };
+  }
+
+  //create schools icon
+  const districtsRenderer = {
+    type: "unique-value",
+    field: "TYPE",
+    uniqueValueInfos: [
+      //CHANGE THIS!!!!!!
+      createFillSymbol("Unified", "#9E559C"),
+      createFillSymbol("Secondary", "#A7C636"),
+      createFillSymbol("Elementary", "#149ECE")
+    ]
+  };
+
   //school district feature layer (polygons)
   const schoolDistrictsLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/2"
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/2",
+    renderer: districtsRenderer,
+    opacity: 0.3,
+    outFields: ["DISTRICT"],
+    popupTemplate: popupDistricts
   });
 
   map.add(schoolDistrictsLayer, 0);
 
-  //school district feature layer (points)
+  // Define popup for Libraries
+  const popupLibraries = {
+    "title": "Library",
+    "content": [{
+      "type": "fields",
+      "fieldInfos": [
+        {
+          "fieldName": "LIBRARY",
+          "label": "Name:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "LIBID",
+          "label": "ID:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "AGENCYTYPE",
+          "label": "Agency Type:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "FULL_ADDR",
+          "label": "Address:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "PHONE",
+          "label": "Phone Number:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "FAX",
+          "label": "Fax:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "LIB_SYSTEM",
+          "label": "System:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "DIRECTOR",
+          "label": "Director:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "DIRECT_EML",
+          "label": "Director's Email:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "WEBSITE",
+          "label": "Website:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "LIB_TYPE",
+          "label": "Type:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "LOCALE_LAB",
+          "label": "Locale:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        },
+        {
+          "fieldName": "PARENT_LIB",
+          "label": "Parent Library:",
+          "isEditable": true,
+          "tooltip": "",
+          "visible": true,
+          "format": null,
+          "stringFieldOption": "text-box"
+        }
+      ]
+    }]
+  }
+
+  //create libraries icon
+  const librariesRenderer = {
+    "type": "simple",
+    "symbol": {
+      "type": "picture-marker",
+      "url": "img/libraries1.png",
+      "width": "12px",
+      "height": "12px"
+    }
+  }
+
+  //libraries feature layer (points)
   const librariesLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/1"
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/1",
+    renderer: librariesRenderer,
+    opacity: 0.8,
+    outFields: ["LIBRARY","LIBID","AGENCYTYPE","FULL_ADDR","PHONE","FAX","LIB_SYSTEM","DIRECTOR","DIRECT_EML","WEBSITE","LIB_TYPE","LOCALE_LAB","PARENT_LIB"],
+    popupTemplate: popupLibraries
   });
 
   map.add(librariesLayer);
+
+  //clusters libraries
+  librariesLayer.featureReduction = {
+    type: "cluster",
+    clusterRadius: "100px",
+    popupTemplate: {
+      // cluster_count is an aggregate field indicating the number
+      // of features summarized by the cluster
+      content: "This cluster represents {cluster_count} libraries."
+    },
+    // You should adjust the clusterMinSize to properly fit labels
+    clusterMinSize: "20px",
+    clusterMaxSize: "45px",
+    labelingInfo: [{
+      // turn off deconfliction to ensure all clusters are labeled
+      deconflictionStrategy: "none",
+      labelExpressionInfo: {
+        expression: "Text($feature.cluster_count, '#,###')"
+      },
+      symbol: {
+        type: "text",
+        color: "#004a5d",
+        font: {
+          weight: "bold",
+          family: "Noto Sans",
+          size: "12px"
+        }
+      },
+      labelPlacement: "center-center",
+    }]
+  }
 
   //creating basemap widget and setting its container to a div
   var basemapGallery = new BasemapGallery({
@@ -103,7 +488,7 @@ require([
        // open the list item in the LayerList
        item.open = true;
        // change the title to something more descriptive
-       item.title = "Wisconsin Public Schools";
+       item.title = "Wisconsin Schools";
        //add legend
        item.panel = {
          content: "legend",
@@ -230,7 +615,6 @@ require([
         para.appendChild(content);
         var theDiv = document.getElementById(iDName);
         theDiv.appendChild(para);
-
       };
 
       function districtName(iDName, fieldName) {
@@ -240,7 +624,6 @@ require([
         bold.appendChild(content);
         var theDiv = document.getElementById(iDName);
         theDiv.appendChild(bold);
-
       };
 
       districtName("schoolDistrict", "DISTRICT");
@@ -260,7 +643,21 @@ require([
 
       });
     });
+  });
+
+/*
+  // Listen to the click event on the map view.
+  view.on("click", function(event) {
+    console.log("click event: ", event.mapPoint);
+    console.log(document.getElementsByClassName("esri-popup__header-title").innerHTML);
+    if (document.querySelector('.esri-popup__header-title').innerHTML === null) {
+      return
+    }
+    else {
+      console.log(document.querySelector('.esri-popup__header-title').innerHTML);
+    }
 
   });
+*/
 
 });
