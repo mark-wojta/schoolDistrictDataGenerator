@@ -16,7 +16,7 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-dark bg-light">
         <a class="navbar-brand"><b><span class='bigger'>Wisconsin School Districts Explorer </span> (2018-2019 School Year)</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,6 +38,11 @@
                 <div class="col-">
                   <a class="nav-link" href="https://dpi.wi.gov/wisedash/download-files" target="_blank">
                     <button type="button" class="btn btn-primary">More School District Data</button>
+                  </a>
+                </div>
+                <div class="col-">
+                  <a class="nav-link" href="https://dpi.wi.gov/support/contact-general" target="_blank">
+                    <button type="button" class="btn btn-primary">General Inquiries About Districts</button>
                   </a>
                 </div>
               </div>
@@ -105,9 +110,7 @@
       </div>
       <div class="grid-container" id=intro>
         <div class="mapSection">
-          <div id="viewDiv">
-            <div id="loadingDiv" class="loading">Map Loading...</div>
-          </div>
+          <div id="viewDiv"></div>
         </div>
         <!-- ADD DATA INTO TABS OR BETTER WAY TO ORGANIZE AND DISPLAY ONLY ONE AT A TIME???? -->
         <div class="sidebar">
@@ -116,7 +119,7 @@
             <div class="col-">
               <div class="section">
                 <div id="schoolDistrict">
-                  <b>Search a School District for</b>
+                  <b>Search or Click a School District for</b>
                 </div>
                 <div id="schoolDistrictText">
                   <b>School District Data</b>
@@ -126,39 +129,70 @@
             <div class="col-">
               <div class="section">
                 <div class="sectionHead" id="schoolInfo">
-                  <img src="img/edu.png">
+                  <input type="image" src="img/edu.png" class="btn-minimize1"/>
                   <b>General Information</b>
                 </div>
-                <br>
-                <div id="schoolName"><b>Name:</b></div>
-                <div id="schoolType"><b>Type:</b></div>
-                <div id="sDID"><b>School District ID:</b></div>
-                <div id="confName"><b>Athletic Conference Name:</b></div>
-                <div id="countyName"><b>County Name:</b></div>
+                <div class="widget-content1">
+                  <br>
+                  <div id="schoolName"><b>District Name:</b></div>
+                  <div id="schoolType"><b>District Type:</b></div>
+                  <div id="sDID"><b>School District ID:</b></div>
+                  <div id="confName"><b>Athletic Conference Name:</b></div>
+                  <div id="confCode"><b>Athletic Conference Code:</b></div>
+                  <div id="countyName"><b>County Name:</b></div>
+                  <div id="sDMA"><b>Mailing Address:</b></div>
+                  <div id="sDPN"><b>Phone Number:</b></div>
+                  <div id="sDPNE"><b>Phone Number Extension:</b></div>
+                  <div id="sDFN"><b>Fax Number:</b></div>
+                  <div id="sDE"><b>Email:</b></div>
+                  <div id="sDW"><b>Website:</b></div>
+                </div>
               </div>
             </div>
             <div class="col-">
               <div class="section">
                 <div class="sectionHead" id="attendanceInfo">
-                  <img src="img/attend.png">
-                  <b>Attendance and Enrollment</b>
+                  <input type="image" src="img/attend.png" class="btn-minimize2"/>
+                  <b>Attendance and Enrollment Information</b>
                 </div>
-                <br>
-                <div id="aDA"><b>Average Daily Attendance:</b></div>
-                <div id="aDM"><b>Average Daily Membership:</b></div>
-                <div id="studCount"><b>Student Count:</b></div>
+                <div class="widget-content2">
+                  <br>
+                  <div id="aDA"><b>Average Daily Attendance:</b></div>
+                  <div id="aDM"><b>Average Daily Membership:</b></div>
+                  <div id="studCount"><b>Enrollment Count:</b></div>
+                  <div id="pSD"><b>Percent of Students with Disabilities:</b></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-">
+              <div class="section">
+                <div class="sectionHead" id="gradeInfo">
+                  <input type="image" src="img/grades.png" class="btn-minimize3"/>
+                  <b>Grade Information</b>
+                </div>
+                <div class="widget-content3">
+                  <br>
+                  <div id="dSA"><b>Student Achievement Score(out of 100):</b></div>
+                  <div id="dEAS"><b>ELA Achievement Score(out of 50):</b></div>
+                  <div id="dMAS"><b>Mathematics Achievement Score(out of 50):</b></div>
+                  <div id="dSGS"><b>Student Growth Score(out of 100):</b></div>
+                  <div id="dEGS"><b>ELA Growth Score(out of 50):</b></div>
+                  <div id="dMGS"><b>Mathematics Growth Score(out of 50):</b></div>
+                </div>
               </div>
             </div>
             <div class="col-">
               <div class="section">
                 <div class="sectionHead" id="disciplineInfo">
-                  <img src="img/disc.png">
+                  <input type="image" src="img/disc.png" class="btn-minimize4"/>
                   <b>Disciplinary Action</b>
                 </div>
-                <br>
-                <div id="explServ"><b>Expulsions with Services Offered:</b></div>
-                <div id="explNoServ"><b>Expulsions with no Services Offered:</b></div>
-                <div id="oSS"><b>Out of School Suspensions:</b></div>
+                <div class="widget-content4">
+                  <br>
+                  <div id="explServ"><b>Expulsions with Services Offered:</b></div>
+                  <div id="explNoServ"><b>Expulsions with no Services Offered:</b></div>
+                  <div id="oSS"><b>Out of School Suspensions:</b></div>
+                </div>
               </div>
             </div>
           </div>

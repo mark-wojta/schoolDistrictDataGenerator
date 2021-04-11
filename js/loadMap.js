@@ -11,13 +11,14 @@ require([
   "esri/core/watchUtils",
   "esri/widgets/Expand",
   "esri/widgets/BasemapGallery",
-  "esri/widgets/Legend",
+  "esri/widgets/Legend", //do I need this?
   "esri/widgets/Popup",
   "esri/PopupTemplate",
-  "dojo/dom-class"
+  "dojo/dom-class",
+  "esri/widgets/Home"
 
  ], function(esriConfig, Map, MapView, FeatureLayer, Search, QueryTask, Query, FeatureTable, LayerList, watchUtils,
-  Expand, BasemapGallery, Legend, Popup, PopupTemplate, domClass) {
+  Expand, BasemapGallery, Legend, Popup, PopupTemplate, domClass, Home) {
 
   esriConfig.apiKey = "AAPKe04a3b5b2ef2480ca44096e68e2eca61hmQ6jnQTcGgB0fnrzWmmq0qSCnotfwAOnE5nDJTY9FR3INVduag1BSPJR9Jqmxs2";
 
@@ -25,6 +26,8 @@ require([
    basemap: "arcgis-topographic"
   });
 
+  const featureContainer = document.getElementById("features");
+  const instructions = document.getElementById("instructions");
   const view = new MapView({
    container: "viewDiv",
    map: map,
@@ -33,16 +36,12 @@ require([
   }
   );
 
-  // Display the loading indicator when the view is updating
-  watchUtils.whenTrue(view, "updating", function(evt) {
-    domClass.add('loadingDiv', 'visible');
+  var homeBtn = new Home({
+    view: view
   });
 
-  // Hide the loading indicator when the view stops updating
-  watchUtils.whenFalse(view, "updating", function(evt) {
-    domClass.remove('loadingDiv', 'visible');
-  });
-
+  // Add the home button to the top left corner of the view
+  view.ui.add(homeBtn, "top-left");
 
 /*
   // Display the loading indicator when the view is updating
@@ -172,9 +171,8 @@ require([
 
   //schools feature layer (points)
   const schoolsLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/0",
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Final778Project_gdb/FeatureServer/0",
     renderer: schoolsRenderer,
-    opacity: 0.8,
     outFields: ["SCHOOL","DISTRICT","SCHOOLTYPE","AGENCYTYPE","SCH_STYLE","GRADE_RANGE","LOCALE","SCHOOL_URL","FULL_ADDR"],
     popupTemplate: popupSchools
   });
@@ -192,24 +190,7 @@ require([
     },
     // You should adjust the clusterMinSize to properly fit labels
     clusterMinSize: "20px",
-    clusterMaxSize: "45px",
-    labelingInfo: [{
-      // turn off deconfliction to ensure all clusters are labeled
-      deconflictionStrategy: "none",
-      labelExpressionInfo: {
-        expression: "Text($feature.cluster_count, '#,###')"
-      },
-      symbol: {
-        type: "text",
-        color: "#004a5d",
-        font: {
-          weight: "bold",
-          family: "Noto Sans",
-          size: "12px"
-        }
-      },
-      labelPlacement: "center-center",
-    }]
+    clusterMaxSize: "45px"
   }
 
   // Define a pop-up for Trailheads
@@ -217,38 +198,23 @@ require([
     "title": "<b>{DISTRICT} School District</b>"
   }
 
-  // Add districts with a class breaks renderer and unique symbols
-  function createFillSymbol(value, color) {
-    return {
-      value: value,
-      symbol: {
-        color: color,
-        type: "simple-fill",
-        style: "solid",
-        outline: {
-          color: "#222222",
-          width: .4
-        }
-      },
-      "label": value
-    };
-  }
-
-  //create schools icon
+  // create districts polygons look
   const districtsRenderer = {
-    type: "unique-value",
-    field: "TYPE",
-    uniqueValueInfos: [
-      //CHANGE THIS!!!!!!
-      createFillSymbol("Unified", "#9E559C"),
-      createFillSymbol("Secondary", "#A7C636"),
-      createFillSymbol("Elementary", "#149ECE")
-    ]
+    type: "simple",
+    symbol: {
+      type: "simple-fill",
+      size: 6,
+      color: "#FFFF00",
+      outline: {
+        color: [0, 0, 0, 0.5],
+        width: "0.5px"
+      }
+    }
   };
 
   //school district feature layer (polygons)
   const schoolDistrictsLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/2",
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Final778Project_gdb/FeatureServer/1",
     renderer: districtsRenderer,
     opacity: 0.3,
     outFields: ["DISTRICT"],
@@ -256,6 +222,37 @@ require([
   });
 
   map.add(schoolDistrictsLayer, 0);
+
+  // Define a pop-up for Trailheads
+  const popupCounty = {
+    "title": "<b>{COUNTY_NAM} County</b>"
+  }
+
+  // create districts polygons look
+  const countyRenderer = {
+    type: "simple",
+    symbol: {
+      type: "simple-fill",
+      size: 6,
+      color: "#9A7B4F",
+      outline: {
+        color: [0, 0, 0, 0.5],
+        width: "0.5px"
+      }
+    }
+  };
+
+  //school district feature layer (polygons)
+  const countiesLayer = new FeatureLayer({
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Final778Project_gdb/FeatureServer/2",
+    renderer: countyRenderer,
+    opacity: 0.3,
+    outFields: ["COUNTY_NAM"],
+    popupTemplate: popupCounty
+  });
+  //hides libaries layer on page load
+  countiesLayer.visible = false;
+  map.add(countiesLayer, 0);
 
   // Define popup for Libraries
   const popupLibraries = {
@@ -397,13 +394,14 @@ require([
 
   //libraries feature layer (points)
   const librariesLayer = new FeatureLayer({
-    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/1",
+    url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Final778Project_gdb/FeatureServer/3",
     renderer: librariesRenderer,
     opacity: 0.8,
     outFields: ["LIBRARY","LIBID","AGENCYTYPE","FULL_ADDR","PHONE","FAX","LIB_SYSTEM","DIRECTOR","DIRECT_EML","WEBSITE","LIB_TYPE","LOCALE_LAB","PARENT_LIB"],
     popupTemplate: popupLibraries
   });
-
+  //hides libaries layer on page load
+  librariesLayer.visible = false;
   map.add(librariesLayer);
 
   //clusters libraries
@@ -417,24 +415,7 @@ require([
     },
     // You should adjust the clusterMinSize to properly fit labels
     clusterMinSize: "20px",
-    clusterMaxSize: "45px",
-    labelingInfo: [{
-      // turn off deconfliction to ensure all clusters are labeled
-      deconflictionStrategy: "none",
-      labelExpressionInfo: {
-        expression: "Text($feature.cluster_count, '#,###')"
-      },
-      symbol: {
-        type: "text",
-        color: "#004a5d",
-        font: {
-          weight: "bold",
-          family: "Noto Sans",
-          size: "12px"
-        }
-      },
-      labelPlacement: "center-center",
-    }]
+    clusterMaxSize: "45px"
   }
 
   //creating basemap widget and setting its container to a div
@@ -447,7 +428,8 @@ require([
   //icon font to represent the content inside the expand widget
   var bgExpand = new Expand({
    view: view,
-   content: basemapGallery
+   content: basemapGallery,
+   expandTooltip: "Change Basemap"
   });
 
   // close the expand whenever a basemap is selected
@@ -473,7 +455,7 @@ require([
 
      var item = event.item;
 
-     if (item.title === "Final778Project - PublicLibrariesWI") {
+     if (item.title === "Final778Project gdb - PublicLibraryWI") {
        // open the list item in the LayerList
        item.open = true;
        // change the title to something more descriptive
@@ -484,7 +466,7 @@ require([
          open: true
        };
      }
-     if (item.title === "Final778Project - PublicSchoolsWI") {
+     if (item.title === "Final778Project gdb - PublicSchoolsWI") {
        // open the list item in the LayerList
        item.open = true;
        // change the title to something more descriptive
@@ -495,7 +477,18 @@ require([
          open: true
        };
      }
-     if (item.title === "Final778Project - SchoolDistrictsWI") {
+     if (item.title === "Final778Project gdb - CountyWI") {
+       // open the list item in the LayerList
+       item.open = true;
+       // change the title to something more descriptive
+       item.title = "Wisconsin Counties";
+       //add legend
+       item.panel = {
+         content: "legend",
+         open: true
+       };
+     }
+     if (item.title === "Final778Project gdb - SchoolDistrictsWI") {
        // open the list item in the LayerList
        item.open = true;
        // change the title to something more descriptive
@@ -511,59 +504,59 @@ require([
 
   //
   layerListExpand = new Expand({
-   expandIconClass: "esri-icon-layer-list",  // see https://developers.arcgis.com/javascript/latest/guide/esri-icon-font/
+   expandIconClass: "esri-icon-layers",  // see https://developers.arcgis.com/javascript/latest/guide/esri-icon-font/
    // expandTooltip: "Expand LayerList", // optional, defaults to "Expand" for English locale
    view: view,
-   content: layerList
+   content: layerList,
+   expandTooltip: "Layer Visibility/Layer Legend"
   });
 
   view.ui.add(layerListExpand, "top-left");
-
-  //pop up for school district being searched
-  var schoolDistrictsSearch = new FeatureLayer({
-   url:
-     "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/final778Project/FeatureServer/2",
-   popupTemplate: {
-     // autocasts as new PopupTemplate()
-     title: "{DISTRICT} School District </br>Type: {Type}",
-     overwriteActions: true
-   }
-  });
 
   //change place holder for school districts
   //adding search widget for school districts to map (addresses too?)
   //fix pops up for libraries, schools, and addressess to display name and which school district it SHOULD fall within
   var searchWidget = new Search({
     view: view,
-    allPlaceholder: "Enter School District, Public Library, Public School, or Address",
+    allPlaceholder: "Search all features",
     sources: [
       {
-        layer: schoolDistrictsSearch,
+        layer: schoolDistrictsLayer,
         searchFields: ["DISTRICT"],
         displayField: "DISTRICT",
         exactMatch: false,
-        outFields: ["DISTRICT", "TYPE"],
+        outFields: ["DISTRICT"],
         name: "Wisconsin School Districts",
-        placeholder: "example: 3708"
-      }
-  /*            {
-        layer: featureLayerSenators,
-        searchFields: ["Name", "Party"],
-        suggestionTemplate: "{Name}, Party: {Party}",
+        placeholder: "ex: Mishicot"
+      },
+      {
+        layer: schoolsLayer,
+        searchFields: ["SCHOOL"],
+        displayField: "SCHOOL",
         exactMatch: false,
-        outFields: ["*"],
-        placeholder: "example: Casey",
-        name: "Senators",
-        zoomScale: 500000,
-        resultSymbol: {
-          type: "picture-marker", // autocasts as new PictureMarkerSymbol()
-          url: "https://developers.arcgis.com/javascript/latest/sample-code/widgets-search-multiplesource/live/images/senate.png",
-          height: 36
-        }
-      } */
-
+        outFields: ["SCHOOL"],
+        name: "Wisconsin Schools",
+        placeholder: "ex: Winter High"
+      },
+      {
+        layer: countiesLayer,
+        searchFields: ["COUNTY_NAM"],
+        displayField: "COUNTY_NAM",
+        exactMatch: false,
+        outFields: ["COUNTY_NAM"],
+        name: "Wisconsin Counties",
+        placeholder: "ex: Rock"
+      },
+      {
+        layer: librariesLayer,
+        searchFields: ["LIBRARY"],
+        displayField: "LIBRARY",
+        exactMatch: false,
+        outFields: ["LIBRARY"],
+        name: "Wisconsin Public Libraries",
+        placeholder: "ex: Athens Branch"
+      }
     ]
-
   });
 
   // Add the search widget to the top left corner of the view
@@ -573,9 +566,9 @@ require([
 
   //create button for panel
   var btn = document.createElement("BUTTON");
-  btn.innerHTML = ">";
+  btn.innerHTML = "<img class='bottom' src='img/expand1.png' /><img class='top' src='img/expand.png' />";
   btn.id = "panelButton";
-  btn.title = 'Expand/Collapse Sidebar';
+  btn.title = 'Expand Map';
 
   // Add the search widget to the top left corner of the view
   view.ui.add(btn, {
@@ -589,6 +582,90 @@ require([
     sidebar.classList.toggle('sidebar_small');
     mainContent.classList.toggle('mapSection_large')
   }
+
+  // get screen point from view's click event
+  view.on("click", function (event) {
+
+    var screenPoint = {
+      x: event.x,
+      y: event.y
+    };
+
+    // Search for graphics at the clicked location
+    view.hitTest(screenPoint).then(function (response) {
+      if (response.results.length) {
+       var graphic = response.results.filter(function (result) {
+        // check if the graphic belongs to the layer of interest
+        return result.graphic.layer === schoolDistrictsLayer;
+       })[0].graphic;
+       // do something with the result graphic
+       console.log(graphic.attributes);
+
+       const queryId = schoolDistrictsLayer.createQuery();
+       queryId.where = "DISTRICT = '" + graphic.attributes.DISTRICT + "'";
+
+       schoolDistrictsLayer.queryFeatures(queryId).then(function(response) {
+         schoolDistrictsLayers = response.features.map(function(feature) {
+         console.log(feature.attributes);
+         console.log(feature.attributes["DISTRICT"]);
+         console.log(feature.attributes["TYPE"]);
+
+         function districtResults(iDName, dataText, fieldName) {
+           document.getElementById(iDName).innerHTML = "";
+           let para = document.createElement('p');
+           let bold = document.createElement('b');
+           var boldString = document.createTextNode(dataText);
+           bold.appendChild(boldString);
+           para.appendChild(bold);
+           var content = document.createTextNode(feature.attributes[fieldName]);
+           para.appendChild(content);
+           var theDiv = document.getElementById(iDName);
+           theDiv.appendChild(para);
+         };
+
+         function districtName(iDName, fieldName) {
+           document.getElementById(iDName).innerHTML = "";
+           let bold = document.createElement('b');
+           var content = document.createTextNode(feature.attributes[fieldName]);
+           bold.appendChild(content);
+           var theDiv = document.getElementById(iDName);
+           theDiv.appendChild(bold);
+         };
+
+         districtName("schoolDistrict", "DISTRICT");
+         districtResults("schoolName", "District Name: ", "DISTRICT");
+         districtResults("schoolType", "District Type: ", "TYPE");
+         districtResults("sDID", "School District ID: ", "DISTRICT_CODE");
+         districtResults("aDA", "Average Daily Attendance: ", "ADM");
+         districtResults("aDM", "Average Daily Membership: ", "ADA");
+         districtResults("explServ", "Expulsions with Services Offered: ", "explServcsOfer");
+         districtResults("explNoServ", "Expulsions with no Services Offered: ", "explNoServcsOfer");
+         districtResults("confName", "Athletic Conference Name: ", "ATHLETIC_CONFERENCE_NAME");
+         districtResults("countyName", "County Name: ", "COUNTY_NAME");
+         districtResults("oSS", "Out of School Suspensions: ", "OSS");
+         districtResults("aDA", "Average Daily Attendance: ", "ADA");
+         districtResults("aDM", "Average Daily Membership: ", "ADM");
+         districtResults("studCount", "Enrollment Count: ", "STUDENT_COUNT");
+         districtResults("confCode", "Athletic Conference Code: ", "ATHLETIC_CONFERENCE_CODE");
+         districtResults("sDE", "Email: ", "Email");
+         districtResults("sDMA", "Mailing Address: ", "Mailing_Address");
+         districtResults("sDPN", "Phone Number: ", "Phone");
+         districtResults("sDPNE", "Phone Number Extension: ", "Extension");
+         districtResults("sDFN", "Fax Number: ", "Fax");
+         districtResults("sDW", "Website: ", "Website");
+         districtResults("pSD", "Percent of Students with Disabilities: ", "Percent_Students_with_Disabilit");
+         districtResults("dSA", "Student Achievement Score(out of 100): ", "District_Student_Achievement_Sc");
+         districtResults("dEAS", "ELA Achievement Score(out of 50): ", "District_ELA_Achievement_Score");
+         districtResults("dMAS", "Mathematics Achievement Score(out of 50): ", "District_Mathematics_Achievemen");
+         districtResults("dSGS", "Student Growth Score(out of 100): ", "District_Student_Growth_Score");
+         districtResults("dEGS", "ELA Growth Score(out of 50): ", "District_ELA_Growth_Score");
+         districtResults("dMGS", "Mathematics Growth Score(out of 50): ", "District_Mathematics_Growth_Sco");
+
+         });
+       });
+      }
+    });
+  });
 
   //create data about School districts based on district input in search bar
   searchWidget.on("select-result", function(event){
@@ -629,7 +706,7 @@ require([
       districtName("schoolDistrict", "DISTRICT");
       districtResults("schoolName", "District Name: ", "DISTRICT");
       districtResults("schoolType", "District Type: ", "TYPE");
-      districtResults("sDID", "School District ID: ", "SDID");
+      districtResults("sDID", "School District ID: ", "DISTRICT_CODE");
       districtResults("aDA", "Average Daily Attendance: ", "ADM");
       districtResults("aDM", "Average Daily Membership: ", "ADA");
       districtResults("explServ", "Expulsions with Services Offered: ", "explServcsOfer");
@@ -639,25 +716,44 @@ require([
       districtResults("oSS", "Out of School Suspensions: ", "OSS");
       districtResults("aDA", "Average Daily Attendance: ", "ADA");
       districtResults("aDM", "Average Daily Membership: ", "ADM");
-      districtResults("studCount", "Student Count: ", "STUDENT_COUNT");
+      districtResults("studCount", "Enrollment Count: ", "STUDENT_COUNT");
+      districtResults("confCode", "Athletic Conference Code: ", "ATHLETIC_CONFERENCE_CODE");
+      districtResults("sDE", "Email: ", "Email");
+      districtResults("sDMA", "Mailing Address: ", "Mailing_Address");
+      districtResults("sDPN", "Phone Number: ", "Phone");
+      districtResults("sDPNE", "Phone Number Extension: ", "Extension");
+      districtResults("sDFN", "Fax Number: ", "Fax");
+      districtResults("sDW", "Website: ", "Website");
+      districtResults("pSD", "Percent of Students with Disabilities: ", "Percent_Students_with_Disabilit");
+      districtResults("dSA", "Student Achievement Score(out of 100): ", "District_Student_Achievement_Sc");
+      districtResults("dEAS", "ELA Achievement Score(out of 50): ", "District_ELA_Achievement_Score");
+      districtResults("dMAS", "Mathematics Achievement Score(out of 50): ", "District_Mathematics_Achievemen");
+      districtResults("dSGS", "Student Growth Score(out of 100): ", "District_Student_Growth_Score");
+      districtResults("dEGS", "ELA Growth Score(out of 50): ", "District_ELA_Growth_Score");
+      districtResults("dMGS", "Mathematics Growth Score(out of 50): ", "District_Mathematics_Growth_Sco");
 
       });
     });
   });
 
-/*
-  // Listen to the click event on the map view.
-  view.on("click", function(event) {
-    console.log("click event: ", event.mapPoint);
-    console.log(document.getElementsByClassName("esri-popup__header-title").innerHTML);
-    if (document.querySelector('.esri-popup__header-title').innerHTML === null) {
-      return
-    }
-    else {
-      console.log(document.querySelector('.esri-popup__header-title').innerHTML);
-    }
+});
 
-  });
-*/
+$(".btn-minimize1").click(function(){
+  $(this).toggleClass('btn-plus1');
+  $(".widget-content1").slideToggle();
+});
 
+$(".btn-minimize2").click(function(){
+  $(this).toggleClass('btn-plus2');
+  $(".widget-content2").slideToggle();
+});
+
+$(".btn-minimize3").click(function(){
+  $(this).toggleClass('btn-plus3');
+  $(".widget-content3").slideToggle();
+});
+
+$(".btn-minimize4").click(function(){
+  $(this).toggleClass('btn-plus4');
+  $(".widget-content4").slideToggle();
 });
